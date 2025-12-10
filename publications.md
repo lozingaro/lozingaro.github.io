@@ -22,7 +22,7 @@ This list includes:
     2024  
     In _IEEE Transactions on Learning Technologies_, Volume 17  
     Pages: 2086–2099  
-    DOI: [10.1109/TLT.2024.3425959](https://doi.org/10.1109/TLT.2024.3425959)
+    DOI: [10.1109/TLT.2024.3425959](https://doi.org/10.1109/TLT.2024.3425959) · [IEEE Xplore](https://ieeexplore.ieee.org/document/10612222)
 
 2. **Low-achievement risk assessment with machine learning**  
     _Andrea Zanellati, Stefano Pio Zingaro, Maurizio Gabbrielli_  

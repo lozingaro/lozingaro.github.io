@@ -129,6 +129,15 @@ blockquote {
   border-bottom: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background-color: #fff;
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: calc($spacing-unit / 2);
+  }
 }
 
 .site-title {
@@ -148,54 +157,33 @@ blockquote {
 }
 
 .site-nav {
-  float: right;
   line-height: 2.5rem;
+  flex: 1 1 auto;
 
-  @include media-query(600px) {
-    float: none;
-    margin-top: 1rem;
+  .trigger {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: flex-end;
+    width: 100%;
   }
 
   .page-link {
-    margin-left: 1.5rem;
     display: inline-block;
     transition: color 0.2s ease;
-
-    @include media-query(600px) {
-      display: block;
-      margin: 0.5rem 0;
-      padding: 0.5rem 0;
-    }
-  }
-
-  .nav-trigger {
-    display: none;
-  }
-
-  .menu-icon {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    
-    svg {
-      fill: $grey-color-dark;
-    }
   }
 
   @include media-query(600px) {
-    .nav-trigger {
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    #nav-trigger:checked ~ .trigger {
-      display: block;
-      padding-top: 0.5rem;
-    }
+    margin-top: 0.5rem;
+    width: 100%;
 
     .trigger {
-      display: none;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0.75rem 1rem;
+    }
+
+    .page-link {
+      padding: 0.25rem 0;
     }
   }
 }

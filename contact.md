@@ -17,4 +17,4 @@ You can find me at my office located on the first floor of `Stazione Ex-Veneta`:
 - Official page: [University of Bologna](https://www.unibo.it/sitoweb/stefano.zingaro)
 - GitHub: [@lozingaro](https://github.com/lozingaro)
 - Chat: Available on [MS Teams](https://teams.microsoft.com)
-- Note: I do not hold accounts on _Meta_, _Twitter_, _Google_, _LinkedIn_, or _ResearchGate_. If you find any account with my name, it is not mine.
+- Note: I do not hold accounts on _Meta_, _X (formerly Twitter)_, _Google_, _LinkedIn_, or _ResearchGate_. If you find any account with my name, it is not mine.
