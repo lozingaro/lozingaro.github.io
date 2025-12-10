@@ -8,8 +8,9 @@ You can find me at my office located on the first floor of `Stazione Ex-Veneta`:
 - Office: PP7
 - Address: [Via Zanolini 41, Bologna, Italy](http://w3w.co/removing.clothed.passing)
 
-**Planning to visit?** Please, email me in advance
-{: .notice--warning}
+<div class="notice--warning">
+<strong>Planning to visit?</strong> Please email me in advance to ensure I'm available.
+</div>
 
 ### Online Presence
 

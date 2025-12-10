@@ -11,19 +11,26 @@ For a formal list of publications, please refer to:
 
 This list includes:
 
-- Journal articles: `2`
+- Journal articles: `3`
 - In conference proceedings: `12`
 - Book chapters & others: `2`
 
-[Scopus](https://www.scopus.com/authid/detail.uri?authorId=57209341965) citation count: `86`  by `83` documents with _h-index_ `4`
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=57209341965) citation count: **185 citations** from **181 documents** with _h-index_ **5** (16 documents)
 
-1. **Low-achievement risk assessment with machine learning**  
+1. **Balancing Performance and Explainability in Academic Dropout Prediction**  
+    _Andrea Zanellati, Stefano Pio Zingaro, Maurizio Gabbrielli_  
+    2024  
+    In _IEEE Transactions on Learning Technologies_, Volume 17  
+    Pages: 2086–2099  
+    DOI: [10.1109/TLT.2024.3425959](https://doi.org/10.1109/TLT.2024.3425959)
+
+2. **Low-achievement risk assessment with machine learning**  
     _Andrea Zanellati, Stefano Pio Zingaro, Maurizio Gabbrielli_  
     2023  
     In _Ital-IA 2023: 3rd National Conference on Artificial Intelligence_, CEUR Workshop Proceedings  
     [Link](https://ceur-ws.org/Vol-3486/123.pdf)
 
-2. **Student Low Achievement Prediction**  
+3. **Student Low Achievement Prediction**  
     _Andrea Zanellati, Stefano Pio Zingaro, Maurizio Gabbrielli_  
     2022  
     In _Artificial Intelligence in Education_, Springer International Publishing  

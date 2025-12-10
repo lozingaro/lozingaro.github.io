@@ -48,14 +48,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: calc($spacing-unit / 2);
   font-weight: 600;
+  line-height: 1.2;
 }
 
-h1 { font-size: 2rem; }
+h1 { font-size: 2rem; line-height: 1.1; }
 h2 { font-size: 1.75rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.25rem; }
 h5 { font-size: 1.1rem; }
 h6 { font-size: 1rem; }
+
+@include media-query(600px) {
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+  h4 { font-size: 1rem; }
+}
 
 p {
   margin-bottom: calc($spacing-unit / 2);
@@ -151,10 +159,12 @@ blockquote {
   .page-link {
     margin-left: 1.5rem;
     display: inline-block;
+    transition: color 0.2s ease;
 
     @include media-query(600px) {
       display: block;
       margin: 0.5rem 0;
+      padding: 0.5rem 0;
     }
   }
 
@@ -162,9 +172,30 @@ blockquote {
     display: none;
   }
 
+  .menu-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    
+    svg {
+      fill: $grey-color-dark;
+    }
+  }
+
   @include media-query(600px) {
     .nav-trigger {
       display: inline-block;
+      cursor: pointer;
+    }
+
+    #nav-trigger:checked ~ .trigger {
+      display: block;
+      padding-top: 0.5rem;
+    }
+
+    .trigger {
+      display: none;
     }
   }
 }
@@ -228,17 +259,25 @@ main {
 .notice--warning {
   background-color: #fff3cd;
   border-left: 4px solid #ffc107;
-  padding: 10px;
+  padding: 15px;
   margin: 20px 0;
   border-radius: 4px;
+  
+  strong {
+    color: #664d03;
+  }
 }
 
 .notice--info {
   background-color: #e1f8ff;
   border-left: 4px solid #83e2ff;
-  padding: 10px;
+  padding: 15px;
   margin: 20px 0;
   border-radius: 4px;
+  
+  strong {
+    color: #003d6b;
+  }
 }
 
 // Responsive images

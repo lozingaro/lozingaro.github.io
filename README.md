@@ -81,13 +81,23 @@ academic-website/
 
 ## 🌐 Deployment
 
-The website is automatically deployed via GitHub Actions when you push to `main`:
+The website is automatically deployed via **GitHub Actions** when you push to `main`:
 
-1. GitHub Actions runs `npm run build:prod`
-2. Static files in `_site/` are deployed to GitHub Pages
-3. Site is live at: `https://cs.unibo.it/~zingaro/`
+### Automatic Deployment Flow
+1. **Trigger**: Push to `main` branch
+2. **Build**: GitHub Actions runs `npm run build:prod`
+3. **Test**: Linting validation with Eleventy
+4. **Deploy**: Static files in `_site/` are deployed to GitHub Pages
+5. **Live**: Site is live at: `https://cs.unibo.it/~zingaro/`
+
+### GitHub Pages Configuration
+- Ensure GitHub Pages is enabled in repository settings
+- Set build source to: **GitHub Actions**
+- Custom domain: `cs.unibo.it` (optional)
 
 ### Manual Deployment
+
+If you prefer to deploy manually:
 
 ```bash
 # Build the site
@@ -96,6 +106,10 @@ npm run build:prod
 # Deploy with rsync (example)
 rsync -azPv _site/ user@host:/path/to/public_html/
 ```
+
+### Workflow Files
+- `.github/workflows/eleventy-build-deploy.yml` - Main CI/CD pipeline
+- `.github/workflows/lint-eleventy.yml` - Build validation
 
 ## 📚 Development
 
