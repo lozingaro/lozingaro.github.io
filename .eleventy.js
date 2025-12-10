@@ -21,24 +21,6 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Add markdown file extension support
-  eleventyConfig.addTemplateFormats("markdown");
-  eleventyConfig.addExtension("markdown", {
-    outputFileExtension: "html",
-    compile: function(inputContent, inputPath) {
-      let markdownIt = require("markdown-it");
-      let md = markdownIt({
-        html: true,
-        breaks: true,
-        linkify: true
-      });
-      
-      return (data) => {
-        return md.render(inputContent);
-      };
-    }
-  });
-
   // Process SCSS files
   eleventyConfig.addWatchTarget("./assets/**/*.scss");
   eleventyConfig.setServerOptions({
@@ -89,7 +71,7 @@ module.exports = function(eleventyConfig) {
       layouts: "_layouts",
       output: "_site"
     },
-    templateFormats: ["md", "markdown", "njk", "html", "scss"],
+    templateFormats: ["md", "njk", "html", "scss"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"
