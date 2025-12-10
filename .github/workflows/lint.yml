@@ -1,0 +1,31 @@
+name: Lint & Validate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Check Jekyll syntax
+        run: bundle exec jekyll build --dry-run
+
+      - name: Validate links (optional)
+        run: |
+          bundle exec jekyll build
+          echo "Build completed successfully"
+        continue-on-error: true

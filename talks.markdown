@@ -4,6 +4,10 @@ title: talks
 permalink: /talks/
 ---
 
+### Invited talks in 2025
+
+_To be updated with new talks and presentations._
+
 ### Invited talks in 2024
 
 * **Creatività e Intelligenza Artificiale**, [Housatonic](www.housatonic.eu), Bologna, Italy.

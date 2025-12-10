@@ -11,7 +11,9 @@ Questo modulo è focalizzato sull'applicazione del metodo scientifico sperimenta
 ### Materiale didattico online
 
 - **Programma del corso:** Dettagli completi del modulo, obiettivi formativi e struttura delle lezioni sono disponibili nella [pagina ufficiale del corso](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/479022).
-- **Piattaforma e-learning:** Accedi a tutte le risorse didattiche, compresi i laboratori e i materiali supplementari, sulla piattaforma [Virtuale Unibo](https://virtuale.unibo.it/course/view.php?id=66347).
+- **Piattaforma e-learning:** Accedi a tutte le risorse didattiche, compresi i laboratori e i materiali supplementari, sulla piattaforma [Virtuale Unibo](https://virtuale.unibo.it/course/view.php?id=77782).
+- **Organizzazione GitHub:** [ai-disi-unibo](https://github.com/ai-disi-unibo) - organizzazione contenente tutti i materiali e i progetti del corso.
+- **Template Repository:** [ai-progetto-template](https://github.com/ai-disi-unibo/ai-progetto-template) - template da utilizzare come base per i progetti degli studenti.
 
 ### Libro di testo consigliato e risorse aggiuntive
 
@@ -31,9 +33,11 @@ Questo modulo è focalizzato sull'applicazione del metodo scientifico sperimenta
 
 ## Dettagli delle lezioni e risorse correlate
 
-- **Data:** 11 dicembre 2024
-- **Argomenti trattati:** Introduzione al problema, discussione della proposta basata su regole e di quella basata sui dati. Implementazione dei metodi e approcci discussi.
+- **Data:** 10 dicembre 2025
+- **Argomenti trattati:** AI come processo di sperimentazione scientifica. Introduzione al problema, discussione della proposta basata su regole e di quella basata sui dati. Implementazione dei metodi e approcci discussi.
+- **Materiali:** [Lezione completa su Notion](https://positive-moat-caf.notion.site/Lezione-10-dicembre-2024-AI-come-processo-di-sperimentazione-scientifica-2c5a6b2c33d480bbb6c8f5d68ddde15f?pvs=143)
 - **Dati:** [names.txt](https://gist.githubusercontent.com/lozingaro/e9a0152c0b6e44b8de83d5c3bbc58dcc/raw/1b56698032da7b6f770d0e60a723a7d20860a87a/names.txt)
+- **Repository GitHub:** [Codice e materiali della lezione](https://github.com/lozingaro/ai-info-2025)
 
 <!-- - **Notebooks jupyter:**
   - [Proposta Basata su Regole](https://gist.github.com/lozingaro/07349dcdcedc2b40d46c7ecdf3430b4a).

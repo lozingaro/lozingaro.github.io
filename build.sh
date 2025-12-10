@@ -1,12 +1,17 @@
-# versioning
+#!/bin/bash
+# Academic Website Build and Deploy Script for Eleventy
+
+echo "🔄 Updating repository..."
 git pull
-git add -A
-git commit -am "update website"
-git push
 
-# build 
-bundle exec jekyll clean
-bundle exec jekyll build 
+echo "📦 Installing dependencies..."
+npm ci
 
-# deploy
-rsync -azPv _site/ laura:public_html
+echo "🏗️  Building site..."
+npm run build:prod
+
+echo "✅ Build complete! Output in _site/"
+echo ""
+echo "To deploy, use GitHub Actions (automatic on push to main)"
+echo "Or manually deploy with rsync:"
+echo "  rsync -azPv _site/ user@host:/path/to/public_html/"

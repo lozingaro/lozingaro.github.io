@@ -1,0 +1,29 @@
+{
+  "name": "academic-website",
+  "version": "1.0.0",
+  "description": "Academic website for Stefano Pio Zingaro",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "build:prod": "ELEVENTY_ENV=production eleventy"
+  },
+  "keywords": [
+    "academic",
+    "website",
+    "11ty",
+    "eleventy"
+  ],
+  "author": "Stefano Pio Zingaro",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-table-of-contents": "^0.6.0",
+    "sass": "^1.69.0"
+  },
+  "dependencies": {}
+}
