@@ -1,6 +1,6 @@
 # Academic Website
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 Personal academic website for **Stefano Pio Zingaro** - Junior Assistant Professor of Computer Science at the University of Bologna.
 
@@ -111,7 +111,8 @@ In repository settings:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+See the [LICENSE](LICENSE) file for details or visit [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
 ## 🔗 Links
 
