@@ -9,6 +9,7 @@ Personal academic website for **Stefano Pio Zingaro** - Junior Assistant Profess
 ## 📖 About
 
 Static HTML website containing:
+
 - Research projects and publications
 - Teaching materials and courses
 - Talks and presentations
@@ -105,6 +106,7 @@ The website is automatically deployed via **GitHub Pages**:
 ### GitHub Pages Configuration
 
 In repository settings:
+
 - **Source**: Deploy from a branch
 - **Branch**: `main`
 - **Folder**: `/public`
@@ -123,7 +125,7 @@ See the [LICENSE](LICENSE) file for details or visit [CC BY-SA 4.0](http://creat
 ## 📧 Contact
 
 Stefano Pio Zingaro  
-📧 stefano.zingaro@unibo.it  
+📧 <stefano.zingaro@unibo.it>  
 🏛️ Department of Computer Science and Engineering, University of Bologna
 
 ---
