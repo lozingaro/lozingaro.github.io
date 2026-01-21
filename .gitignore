@@ -9,6 +9,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
+package-lock.json
 
 # Ruby/Bundler (legacy, not used)
 Gemfile.lock
@@ -17,3 +18,28 @@ vendor/
 
 # System files
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
