@@ -52,7 +52,6 @@ academic-website/
 ├── _layouts/                 # HTML templates (Nunjucks)
 │   ├── default.njk
 │   └── page.njk
-├── _includes/                # Template includes
 ├── assets/                   # CSS, images, PDFs
 │   ├── main.scss             # Main stylesheet
 │   ├── css/

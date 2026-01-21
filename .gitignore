@@ -9,4 +9,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
+
+# Ruby/Bundler (legacy, not used)
+Gemfile.lock
+.bundle/
+vendor/
+
+# System files
 .DS_Store
