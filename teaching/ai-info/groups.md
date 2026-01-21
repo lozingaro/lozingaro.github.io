@@ -4,8 +4,18 @@ title: Groups for the AI Course
 permalink: /teaching/ai-info/groups
 ---
 
-**The color of your group name is <span style="color:red">red</span>?** Then, you have not correctly added the user `dezingaro` as `Reporter` of the project on `GitLab`, or there are problems with the registration of your group. If this is the case, please, [contact me](mailto:stefano.zingaro@unibo.it) as soon as possible.
+**The color of your group name is <span style="color:red">red</span>?** Then, you have not correctly added the user `lozingaro` as collaborator of the project on `GitHub`, or there are problems with the registration of your group. If this is the case, please, [contact me](mailto:stefano.zingaro@unibo.it) as soon as possible.
 {: .notice--warning}
+
+## Registered in 2025/26
+
+| Name                                     | Members |
+| :--------------------------------------- | ------: |
+
+## Registered in 2024/25
+
+| Name                                     | Members |
+| :--------------------------------------- | ------: |
 
 ## Registered in 2023/24
 

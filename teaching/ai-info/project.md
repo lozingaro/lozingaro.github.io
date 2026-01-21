@@ -47,14 +47,13 @@ For those seeking a group, visit the [group list page](groups) for contact info 
 
 - Use preferred technologies for development, such as Java, Python or MiniZinc.
 - Use `git` for project management.
-- Store code on [GitLab](http://gitlab.com):
-  1. Request access to the [AI Lab CS LM group](https://gitlab.com/ai_lab_cs_lm/2024_2025).
-  2. Fork the [provided template repository](https://gitlab.com/ai_lab_cs_lm/2024_2025/ai_course_template).
-  3. Manage --> Members --> Invite members --> Add username `@dezingaro` --> Select role `Reporter` --> Invite.
+- Store code on [GitHub](https://github.com):
+  1. Fork the [provided template repository](https://github.com/ai-disi-unibo/ai-progetto-template).
+  2. Settings --> Collaborators --> Add people --> Add username `@lozingaro` --> Select role `Write` --> Confirm.
 
 ## Submission
 
-1. Create a `Tag` named **Consegna** on GitLab.
+1. Create a `Tag` named **Consegna** on GitHub.
 2. Notify [me](mailto:stefano.zingaro@unibo.it) with subject: **CONSEGNA AI - GROUP NAME** to arrange the project discussion.
 
 ## Demo
@@ -62,10 +61,9 @@ For those seeking a group, visit the [group list page](groups) for contact info 
 - Prepare a script for automated testing.
 - Can include screenshots or additional material.
 - Integration with code is optional.
-- Useful for further publication of the project on the web, e.g. on [GitHub](http://github.com).
 
 ## Project discussion
 
 - Evaluation includes report analysis and code implementation.
-- Exam date based on GitLab `Tag` creation.
+- Exam date based on GitHub `Tag` creation.
 - Exam date and details will be scheduled after submission.

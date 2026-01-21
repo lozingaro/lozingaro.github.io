@@ -32,7 +32,7 @@ permalink: /teaching/
   - [Student feedback (Module II)](../assets/pdf/Resoconto-20231498225.pdf)
 
 ### Earlier Courses
-* **AI for Kids** - Bologna Business School [kids coding week](https://www.bbs.unibo.eu/kids-coding-week/) [→ Course materials](kids-coding-week)
+* **AI for Kids** - Bologna Business School [kids coding week](https://www.bbs.unibo.it/kids-coding-week/) [→ Course materials](kids-coding-week)
 * **Introduction to Machine Learning** - [Advanced School on Artificial Intelligence](https://asai-er.github.io) [→ GitHub](https://github.com/lozingaro/asai-er-ml)
 * **Decision Support Systems** (2022 and earlier) - Master in AI and Innovation Management, Bologna Business School
 * **Operating Systems** - First cycle degree programme in Information Science for Management, University of Bologna [→ Course materials](so-infoman)

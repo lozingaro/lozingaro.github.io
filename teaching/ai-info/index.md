@@ -10,8 +10,10 @@ Questo modulo è focalizzato sull'applicazione del metodo scientifico sperimenta
 
 ### Materiale didattico online
 
-- **Programma del corso:** Dettagli completi del modulo, obiettivi formativi e struttura delle lezioni sono disponibili nella [pagina ufficiale del corso](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/479022).
-- **Piattaforma e-learning:** Accedi a tutte le risorse didattiche, compresi i laboratori e i materiali supplementari, sulla piattaforma [Virtuale Unibo](https://virtuale.unibo.it/course/view.php?id=77782).
+- **Programma del corso:** Dettagli completi del modulo, obiettivi formativi e struttura delle lezioni sono disponibili nella [pagina ufficiale del corso](https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2025/479022).
+- **Piattaforma e-learning:** Accedi a tutte le risorse didattiche, compresi i laboratori e i materiali supplementari, sulla piattaforma Virtuale Unibo.
+- **Organizzazione GitHub:** [ai-disi-unibo](https://github.com/ai-disi-unibo) - organizzazione contenente tutti i materiali e i progetti del corso.
+- **Template Repository:** [ai-progetto-template](https://github.com/ai-disi-unibo/ai-progetto-template) - template da utilizzare come base per i progetti degli studenti.
 - **Organizzazione GitHub:** [ai-disi-unibo](https://github.com/ai-disi-unibo) - organizzazione contenente tutti i materiali e i progetti del corso.
 - **Template Repository:** [ai-progetto-template](https://github.com/ai-disi-unibo/ai-progetto-template) - template da utilizzare come base per i progetti degli studenti.
 
