@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Instructions for developing the project | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<p>Welcome to the Artificial Intelligence (AI) project page for the Master's degree program in Computer Science at the University of Bologna.</p>
+<ul>
+<li><a href="#group-management">Group management</a></li>
+<li><a href="#project-structure">Project structure</a></li>
+<li><a href="#evaluation-process">Evaluation process</a></li>
+<li><a href="#report-guidelines">Report guidelines</a></li>
+<li><a href="#implementation">Implementation</a></li>
+<li><a href="#submission">Submission</a></li>
+<li><a href="#demo">Demo</a></li>
+<li><a href="#project-discussion">Project discussion</a></li>
+</ul>
+<h2>Group management</h2>
+<ul>
+<li>Each group consists of 2 to 3 members. Exceptional cases (e.g., groups consisting of 1 member) can be discussed with the tutor.</li>
+<li>To participate in the exam, communicate your group composition via email to <a href="mailto:stefano.zingaro@unibo.it">me</a>.</li>
+<li>Email subject: <strong>GRUPPO AI</strong></li>
+<li>Include: Group name, member names, IDs (matricola), contact email.</li>
+</ul>
+<p>For those seeking a group, visit the <a href="groups">group list page</a> for contact info and existing group details.</p>
+<h2>Project structure</h2>
+<ul>
+<li>Projects can be proposed by groups or course instructors (encouraged).</li>
+<li>Instructors' proposals are <strong>just</strong> general guidelines (problems, tasks, datasets).</li>
+</ul>
+<!-- - Check the [proposals page](proposals) for instructor-proposed projects. -->
+<h2>Evaluation process</h2>
+<ul>
+<li>Two components: <strong>written report</strong> and <strong>code implementation</strong>.</li>
+<li>Evaluation through an oral exam discussing the project.</li>
+<li>All group members participate in discussing the project.</li>
+<li>Evaluation is sufficient if a correct experimental approach is followed. Grade depends on the effort and quality of the work.</li>
+</ul>
+<h2>Report guidelines</h2>
+<ul>
+<li>No length limits, 12pt font, any preferred format (e.g., <code>lateX</code>, <code>docx</code>).</li>
+<li>Follow the <a href="report">report template</a> structure.</li>
+<li>Submit as a PDF file named <code>REPORT_AI.pdf</code>.</li>
+</ul>
+<h2>Implementation</h2>
+<ul>
+<li>Use preferred technologies for development, such as Java, Python or MiniZinc.</li>
+<li>Use <code>git</code> for project management.</li>
+<li>Store code on <a href="https://github.com">GitHub</a>:
+<ol>
+<li>Fork the <a href="https://github.com/ai-disi-unibo/ai-progetto-template">provided template repository</a>.</li>
+<li>Settings --&gt; Collaborators --&gt; Add people --&gt; Add username <code>@lozingaro</code> --&gt; Select role <code>Write</code> --&gt; Confirm.</li>
+</ol>
+</li>
+</ul>
+<h2>Submission</h2>
+<ol>
+<li>Create a <code>Tag</code> named <strong>Consegna</strong> on GitHub.</li>
+<li>Notify <a href="mailto:stefano.zingaro@unibo.it">me</a> with subject: <strong>CONSEGNA AI - GROUP NAME</strong> to arrange the project discussion.</li>
+</ol>
+<h2>Demo</h2>
+<ul>
+<li>Prepare a script for automated testing.</li>
+<li>Can include screenshots or additional material.</li>
+<li>Integration with code is optional.</li>
+</ul>
+<h2>Project discussion</h2>
+<ul>
+<li>Evaluation includes report analysis and code implementation.</li>
+<li>Exam date based on GitHub <code>Tag</code> creation.</li>
+<li>Exam date and details will be scheduled after submission.</li>
+</ul>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

@@ -1,21 +1,3 @@
-# Build and output directories
-_site/
-.cache/
-dist/
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-yarn.lock
-package-lock.json
-
-# Ruby/Bundler (legacy, not used)
-Gemfile.lock
-.bundle/
-vendor/
-
 # System files
 .DS_Store
 Thumbs.db
@@ -28,18 +10,13 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
-.history/
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Logs
-logs/
-*.log
 
 # Temporary files
 tmp/
 temp/
+*.log
 
+# Build artifacts (if you ever need build tools)
+node_modules/
+dist/
+.cache/

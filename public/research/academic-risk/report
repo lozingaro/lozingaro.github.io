@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Interventi per il successo accademico | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<h2>Introduzione e contesto</h2>
+<p>Il completamento del percorso di studi costituisce un obiettivo cruciale per gli studenti universitari. Gli atenei, nell'ambito dei loro sforzi per massimizzare le iscrizioni e le lauree e contemporaneamente minimizzare i casi di abbandono, adottano strategie operative a vari livelli.<br>
+In questo contesto, l'Università di Bologna si dedica attivamente alla progettazione e implementazione di interventi specifici volti a prevenire esiti non canonici nella carriera accademica degli studenti.<br>
+Questi sforzi sono guidati dall'obiettivo primario di ridurre il rischio di abbandono accademico, una problematica di rilevanza cruciale che influisce significativamente non solo sul percorso individuale degli studenti, ma anche sull'intero tessuto economico e sociale dell'ateneo.</p>
+<p>L'abbandono accademico può generare conseguenze come ritardi nella definizione del percorso di studi o nella scelta della carriera professionale, oltre a complicare la gestione delle risorse da parte dell'amministrazione universitaria.<br>
+Interventi preventivi possono attutire questo impatto negativo.<br>
+Esempi di tali interventi includono l'orientamento efficace durante il processo di iscrizione e la fornitura di indicazioni in-itinere sulle opportunità di rafforzamento accademico o sulla possibilità di un cambio di percorso di studi.</p>
+<p>L'Università di Bologna raccoglie e analizza dati relativi a studentesse e studenti iscritti ai corsi di laurea triennale e magistrale per identificare situazioni a rischio di abbandono e per progettare interventi mirati.<br>
+È stato osservato che la maggior parte degli abbandoni avviene nel primo anno di iscrizione, circa il 90%. Pertanto, è fondamentale focalizzare gli sforzi in questo periodo critico.</p>
+<p>Tra il 2016 e il 2020, l'ateneo ha registrato una media annuale di 14836 (± 356) iscritti ai corsi di laurea triennale, con l'84.4% (± 0.3%) che ha proseguito gli studi al secondo anno, l'8.8% (± 2.3%) che ha interrotto la carriera accademica, il 2.8% (± 1.3%) che ha trasferito la carriera in un altro ateneo, e il 3.9% (± 0.9%) che ha cambiato corso di studi all'interno dello stesso ateneo.<br>
+Questi esiti non canonici possono portare a un discontinuo negli studi, con impatti negativi sia per le studentesse che per gli studenti sia per l'università.</p>
+<p>Un efficace orientamento all'ingresso può ridurre la frequenza di tali esiti, così come un orientamento in itinere può diminuire il rischio di interruzione della carriera accademica.<br>
+L'implementazione di corsi di rafforzamento mirati può inoltre facilitare il passaggio di carriera o il trasferimento, minimizzando il rischio di interruzione degli studi.</p>
+<h2>Obiettivi del progetto</h2>
+<p>Il progetto mira a identificare i fattori che influenzano l'abbandono della carriera accademica e a progettare interventi efficaci per mitigare questo rischio.<br>
+Questo obiettivo si concentra sulla comprensione delle dinamiche che portano a esiti quali l'interruzione, il passaggio, e il trasferimento di corso, evidenziando la discrepanza tra le aspettative delle studentesse e degli studenti e la realtà accademica.</p>
+<p>I fattori che influenzano tale discrepanza possono essere molteplici.<br>
+Tra questi, si annoverano la preparazione inadeguata, la mancanza di interesse o motivazione, difficoltà nell'auto-organizzazione dello studio, e situazioni di disagio personale o familiare.<br>
+Molti di questi fattori sono esogeni, ovvero esterni al corso di studi e di limitata gestibilità da parte dell'ateneo.<br>
+Tuttavia, essi sono indicatori cruciali dello stato delle studentesse e degli studenti e del contesto sociale in cui l'istituzione opera.<br>
+L'implementazione di campagne di comunicazione efficaci e il supporto proattivo a studentesse, studenti e famiglie può migliorare significativamente l'orientamento, sia in ingresso che in itinere, contribuendo a ridurre la suddetta discrepanza.</p>
+<p>Al contempo, è essenziale considerare i fattori endogeni, direttamente collegati al corso di studi, come la qualità dell'insegnamento, i servizi offerti, le strutture, i materiali didattici, e le attività di placement.<br>
+Questi elementi hanno un impatto diretto sulla scelta e sulla persistenza nel percorso accademico.</p>
+<p>Il progetto riconosce anche l'interazione tra fattori endogeni ed esogeni.<br>
+Ad esempio, uno studente con difficoltà organizzative può trarre beneficio da tutoraggio o gruppi di studio, ma se le difficoltà derivano da problemi personali o familiari, è necessario un approccio più olistico che coinvolga servizi universitari e risorse esterne.</p>
+<p>Un obiettivo primario di questo progetto è la costruzione di una rappresentazione comprensiva che includa tutti i fattori rilevanti, sia esogeni che endogeni, sia quantitativi che qualitativi, per descrivere in modo esaustivo ciascun possibile esito.<br>
+Questa rappresentazione mira a catturare le varie sfaccettature e le dinamiche specifiche di ogni situazione, fornendo una base solida per l'identificazione dei fattori critici.</p>
+<p>In secondo luogo, il progetto si prefigge di stabilire la rilevanza di ciascun fattore in relazione alle diverse situazioni.<br>
+Attraverso questo approccio, sarà possibile elaborare una mappa o un protocollo che correla la condizione reale di ogni studente con l'efficacia degli interventi proposti.<br>
+Questa mappa servirà come strumento fondamentale per guidare le decisioni e le azioni dell'ateneo nella gestione e prevenzione del rischio.</p>
+<h2>Revisione della letteratura</h2>
+<p>Studi recenti hanno identificato i fattori chiave legati all'abbandono accademico nel contesto universitario.<br>
+Truța (2018) sottolinea l'importanza dell'impegno, qui inteso come grado di partecipazione nella vita accademica.<br>
+In particolare, l'impegno psicologico, misurato come livello di dedizione allo studio, è rilevante nel predire l'intenzione di abbandonare precocemente gli studi.<br>
+Questo aspetto evidenzia la necessità di una comprensione più approfondita degli aspetti psicologici che influenzano la decisione degli studenti di continuare o interrompere gli studi.</p>
+<p>Bernardo (2016) sottolinea l'influenza di diversi fattori come la vocazione, lo status economico e l'adattamento sociale e accademico sui tassi di abbandono.<br>
+Questi fattori indicano che le decisioni degli studenti sono influenzate da una combinazione di fattori personali, economici e ambientali.</p>
+<p>Ortiz-Lozano (2018) sottolinea la necessità di identificare precocemente gli studenti a rischio, concentrandosi sui dati relativi ai risultati scolastici.<br>
+Questo approccio consente di intervenire in modo proattivo prima che gli studenti decidano di abbandonare gli studi.</p>
+<p>Tuttavia, Sullivan (2016) evidenzia una lacuna nella letteratura, in particolare per quanto riguarda la prevenzione e l'intervento per gli studenti con disturbi emotivi.<br>
+Questa osservazione suggerisce la necessità di ulteriori ricerche e interventi mirati a sostenere questo specifico gruppo di studenti.</p>
+<p>In sintesi, questi studi suggeriscono che un approccio multifattoriale, che includa l'identificazione precoce, il supporto accademico e interventi mirati, è fondamentale per affrontare l'abbandono accademico in ambito universitario.</p>
+<h2>Metodologia</h2>
+<p>La presente sezione descrive l'approccio metodologico adottato per indagare il fenomeno dell'abbandono accademico all'interno dell'Università di Bologna, delineando le strategie utilizzate per la raccolta e l'analisi dei dati, nonché per la valutazione dell'efficacia degli interventi proposti.<br>
+Il nostro approccio si basa su una solida rappresentazione dei dati, metodologie di analisi avanzate, valutazioni critiche degli interventi e una chiara comprensione delle limitazioni dello studio.</p>
+<h3>Rappresentazione dei dati</h3>
+<p>La rappresentazione dei dati costituisce un pilastro fondamentale nella nostra analisi del fenomeno di successo o insuccesso accademico.<br>
+Guidati dalla letteratura esistente, abbiamo delineato un quadro iniziale che incorpora una varietà di fattori, che spaziano da quelli psicologici a quelli socio-economici e performativi, tutti focalizzati sulla relazione tra studentessa/e e il corso di studi selezionato.<br>
+Questa rappresentazione iniziale funge da base per la nostra esplorazione, consentendoci di indagare oltre i fattori già noti considerando gli elementi istituzionali, quali l'organizzazione dei corsi e il livello di innovazione della didattica.<br>
+Quest'approccio mira a espandere la nostra comprensione del fenomeno, integrando il focus sull'individuo <strong>abbandonante</strong> con quello del corso <strong>abbandonato</strong>.</p>
+<p>Abbiamo quindi definito vari insiemi di fattori che caratterizzeranno la nostra rappresentazione complessiva.<br>
+Il primo gruppo di insiemi offre una <em>fotografia</em> statica dell'insuccesso accademico, includendo dati sia relativi alla/o studentessa/e sia all'istituzione.<br>
+Questi dati comprendono informazioni personali raccolte all'atto di iscrizione, come età, genere, situazione economica e provenienza geografica, con una distinzione tra provenienza <em>micro</em> e <em>macro</em> utile per analizzare l'efficacia di politiche territoriali mirate.</p>
+<p>Un secondo insieme di dati descrive il <em>background</em> educativo dello studente, includendo il tipo di istituzione scolastica frequentata precedentemente (primaria, secondaria di primo e secondo grado) e i risultati ottenuti, siano queste la votazione finale oppure i dati delle prove INVALSI.<br>
+Queste informazioni forniscono un contesto essenziale per comprendere il percorso educativo pregresso dello studente.</p>
+<p>Il secondo gruppo di insiemi si focalizza sulla relazione tra lo studente e il contesto accademico.<br>
+Elementi come la motivazione alla scelta del corso, le capacità organizzative dello studente, i feedback sui corsi, i risultati degli esami di ingresso (TOLC) e di quelli successivi (appelli di esame conseguiti e falliti), la gestione dei crediti formativi obbligatori (OFA) e l'esito al termine del primo anno accademico, sono tutti fattori che contribuiscono a delineare la dinamica tra la/o studentessa/e e l'università in una visione temporale del percorso accademico.</p>
+<p>Questa rappresentazione multidimensionale, arricchita da un approccio esplorativo e informata dalla letteratura di settore, costituisce la base su cui costruiremo la nostra analisi.<br>
+L'obiettivo è di elaborare un quadro complesso che tenga conto sia delle caratteristiche individuali degli studenti sia degli aspetti istituzionali, per identificare strategie efficaci di prevenzione dell'abbandono accademico.</p>
+<h3>Metodi di Analisi e risultati preliminari</h3>
+<p>Successivamente, descriveremo i metodi di analisi impiegati, con particolare attenzione a quelli statistici e computazionali, come l'applicazione di modelli predittivi e tecniche di machine learning. Presenteremo alcuni risultati preliminari interessanti ottenuti dalla fase iniziale di analisi, che gettano luce sui fattori critici di successo e insuccesso accademico.</p>
+<h3>Valutazione dell'efficacia degli interventi</h3>
+<p>Illustreremo inoltre come viene valutata l'efficacia degli interventi proposti, definendo metriche specifiche di successo e descrivendo il design sperimentale adottato per misurare l'impatto delle strategie di prevenzione e supporto implementate.</p>
+<h3>Limitazioni e sfide, considerazioni etiche e di privacy</h3>
+<p>Verranno riconosciute le potenziali limitazioni e sfide della metodologia proposta, come la possibile variabilità dei dati o le sfide nell'interpretazione dei risultati. Questa sezione contribuirà a fornire un quadro realistico e onesto del progetto.</p>
+<p>Si affronteranno le questioni etiche e di privacy legate alla raccolta e all'analisi dei dati degli studenti, assicurando che tutte le procedure rispettino le normative vigenti e le migliori pratiche in termini di protezione dei dati personali.</p>
+<p>Per organizzare la sezione dedicata all'organizzazione temporale del progetto, includeremo la descrizione dei &quot;working package&quot; (WP), gli obiettivi principali e secondari per ciascuno di essi, e una tabella GANTT. Ecco una bozza strutturata per facilitare la comprensione e la pianificazione del progetto:</p>
+<h2>Organizzazione Temporale del Progetto</h2>
+<p>Il progetto è strutturato in diversi &quot;working package&quot; (WP), ciascuno mirato a raggiungere specifici obiettivi chiave e sottoobiettivi, con il contributo sinergico di un Professore ordinario, un ricercatore e un assegnista di ricerca.</p>
+<h3>Working Package 1: Rappresentazione dei Dati e Preparazione</h3>
+<ul>
+<li><strong>Obiettivi Chiave</strong>: Definire e preparare la rappresentazione dei dati da utilizzare nelle analisi.</li>
+<li><strong>Sotto Obiettivi</strong>:
+<ul>
+<li>Raccolta e normalizzazione dei dati.</li>
+<li>Definizione delle variabili di interesse basate sulla letteratura e su fattori istituzionali.</li>
+</ul>
+</li>
+<li><strong>Periodo</strong>: Gennaio - Febbraio 2024.</li>
+</ul>
+<h3>Working Package 2: Analisi dei Dati e Risultati Preliminari</h3>
+<ul>
+<li><strong>Obiettivi Chiave</strong>: Analizzare i dati raccolti per identificare pattern e risultati preliminari.</li>
+<li><strong>Sotto Obiettivi</strong>:
+<ul>
+<li>Implementazione di modelli predittivi.</li>
+<li>Analisi dei fattori chiave relativi al successo/insuccesso accademico.</li>
+</ul>
+</li>
+<li><strong>Periodo</strong>: Marzo - Maggio 2024.</li>
+</ul>
+<h3>Working Package 3: Valutazione dell'Efficacia degli Interventi</h3>
+<ul>
+<li><strong>Obiettivi Chiave</strong>: Valutare l'efficacia degli interventi basati sui risultati analitici.</li>
+<li><strong>Sotto Obiettivi</strong>:
+<ul>
+<li>Sviluppo e implementazione di interventi pilota.</li>
+<li>Misurazione dell'impatto degli interventi sul successo accademico.</li>
+</ul>
+</li>
+<li><strong>Periodo</strong>: Giugno - Settembre 2024.</li>
+</ul>
+<h3>Working Package 4: Analisi Finale e Pubblicazione dei Risultati</h3>
+<ul>
+<li><strong>Obiettivi Chiave</strong>: Condurre un'analisi finale dei dati e degli interventi; preparare i risultati per la pubblicazione.</li>
+<li><strong>Sotto Obiettivi</strong>:
+<ul>
+<li>Analisi complessiva dell'impatto degli interventi.</li>
+<li>Redazione di articoli e report finali.</li>
+</ul>
+</li>
+<li><strong>Periodo</strong>: Ottobre - Dicembre 2024.</li>
+</ul>
+<h3>Tabella GANTT</h3>
+<p>La seguente tabella GANTT illustra la distribuzione temporale delle attività previste nei diversi working package, con il coinvolgimento del Professore ordinario, del ricercatore e dell'assegnista di ricerca.</p>
+<table>
+<thead>
+<tr>
+<th>WP/Mese</th>
+<th style="text-align:center">Gen</th>
+<th style="text-align:center">Feb</th>
+<th style="text-align:center">Mar</th>
+<th style="text-align:center">Apr</th>
+<th style="text-align:center">Mag</th>
+<th style="text-align:center">Giu</th>
+<th style="text-align:center">Lug</th>
+<th style="text-align:center">Ago</th>
+<th style="text-align:center">Set</th>
+<th style="text-align:center">Ott</th>
+<th style="text-align:center">Nov</th>
+<th style="text-align:center">Dic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WP1</strong></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>WP2</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>WP3</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td><strong>WP4</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">X</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Legenda</strong>:</p>
+<ul>
+<li><strong>X</strong>: Periodo di attiva partecipazione al WP.</li>
+<li><strong>Professore ordinario</strong>: Supervisione e indirizzo strategico in tutti i WP.</li>
+<li><strong>Ricercatore a tempo determinato</strong>: Focalizzazione su WP2 e WP4 per l'analisi dei dati e la preparazione dei risultati.</li>
+<li><strong>Assegnista di ricerca</strong>: Impegno prevalente in WP1 e WP3 per la preparazione</li>
+</ul>
+<h2>Risorse e Budget</h2>
+<p>Stima le risorse necessarie, inclusi il personale, le tecnologie, e il budget.</p>
+<h2>Impatto Atteso e Valutazione</h2>
+<p>Definisci come misurerai l'impatto del progetto e come questo contribuirà alla riduzione del drop-out accademico all'Università di Bologna.</p>
+<h2>Conclusione</h2>
+<p>Riassumi l'importanza del progetto e il suo potenziale impatto positivo sull'istruzione e sul benessere degli studenti.</p>
+<h2>Riferimenti bibliografici</h2>
+<ol>
+<li>
+<p>Truța, C., Pârv, L., &amp; Topala, I.R. (2018). Academic Engagement and Intention to Drop Out: Levers for Sustainability in Higher Education. Sustainability.</p>
+</li>
+<li>
+<p>Bernardo, A.B., Esteban, M., Fernández, E., Cervero, A., Tuero, E., &amp; Solano, P.A. (2016). Comparison of Personal, Social and Academic Variables Related to University Drop-out and Persistence. Frontiers in Psychology, 7.</p>
+</li>
+<li>
+<p>Ortiz-Lozano, J.M., Rua-Vieites, A., Bilbao-Calabuig, P., &amp; Casadesús-Fa, M. (2018). University student retention: Best time and data to identify undergraduate students at risk of dropout. Innovations in Education and Teaching International, 57, 74 - 85.</p>
+</li>
+<li>
+<p>Sullivan, A.L., &amp; Sadeh, S.S. (2016). Does the Empirical Literature Inform Prevention of Dropout among Students with Emotional Disturbance? A Systematic Review and Call to Action. Exceptionality, 24, 251 - 262.</p>
+</li>
+</ol>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

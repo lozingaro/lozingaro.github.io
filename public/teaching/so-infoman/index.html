@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Sistemi Operativi | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<p><strong>Want to share your notes?</strong> Send me the link with a description.<br>
+{: .notice--warning}</p>
+<p>This page contains information about the 20-hour module of the Sistemi Operativi (Operating Systems) course for the Laurea in Informatica per il Management (Computer Science for Management) degree.</p>
+<h2>Useful Links</h2>
+<ul>
+<li><a href="https://bcs.wiley.com/he-bcs/Books?action=resource&amp;bcsId=11227&amp;itemId=1119320917&amp;resourceId=44619">Slides for the Tenth Edition of the Course Book</a></li>
+<li><a href="https://tinyurl.com/2p89ecm5">Tenth Edition of the Course Book</a> 🚨 (If you have DNS issues, try <a href="https://www.opendns.com/">alternative DNS</a> or <a href="https://www.torproject.org/">this solution</a>)</li>
+<li><a href="https://github.com/greggagne/osc10e">C and Java Code from the Tenth Edition</a></li>
+<li><a href="https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/#comparison">CPU Scheduling Algorithm Reference</a></li>
+</ul>
+<h3>CPU burst notes</h3>
+<ul>
+<li><a href="http://www2.cs.uregina.ca/~hamilton/courses/330/notes/scheduling/scheduling.html">Example of Expected Burst Time Calculation</a></li>
+<li><a href="https://link.springer.com/chapter/10.1007/978-981-19-0825-5_58">Real-time CPU Burst Prediction with Machine Learning</a></li>
+<li><a href="https://training.github.com/downloads/github-git-cheat-sheet.pdf">Git Cheat Sheet</a></li>
+</ul>
+<script src="https://gist.github.com/lozingaro/a8ad9e6ae20e1cd1cde3dd2f2e655255.js"></script>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

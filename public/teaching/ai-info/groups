@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Groups for the AI Course | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<p><strong>The color of your group name is <span style="color:red">red</span>?</strong> Then, you have not correctly added the user <code>lozingaro</code> as collaborator of the project on <code>GitHub</code>, or there are problems with the registration of your group. If this is the case, please, <a href="mailto:stefano.zingaro@unibo.it">contact me</a> as soon as possible.<br>
+{: .notice--warning}</p>
+<h2>Registered in 2025/26</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+</table>
+<h2>Registered in 2024/25</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+</table>
+<h2>Registered in 2023/24</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">I Fusilli</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">BiblioTeam</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">A(I) - TEAM</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">The Green Group</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">I Pasticcini</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">Hey I</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">AI-uto</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">il partito dei lavoratori</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">sayonara</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">A Hi</td>
+<td style="text-align:right">2</td>
+</tr>
+</tbody>
+</table>
+<h2>Registered in 2022/23, not yet examined</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">THE_WALKING_DEVS</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left"><span style="color:red">zkml</span></td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left"><span style="color:red">GoodNight</span></td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left"><span style="color:red">LightBulb</span></td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">SolAIsta</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">ComputerScientist</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left"><span style="color:red">HOPE</span></td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">LearningMachines</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Waste Detection</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Polidori</td>
+<td style="text-align:right">1</td>
+</tr>
+</tbody>
+</table>
+<h2>Exam session 2022/23</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Deep Dreamers</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Medical GRM</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">StereotAIps</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">FastDTW</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">mAIntenance</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">AI miei tempi</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">AI-OilBoys</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">UPO</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Beat Generator</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">OkComputer</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">hellofriend.mov</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">Erasmus</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">DiSkinTipacchio</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Python in my boot</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">DropOut</td>
+<td style="text-align:right">1</td>
+</tr>
+</tbody>
+</table>
+<h2>Exam session 2021/22</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:right">Members</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ITLandfill</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">ComunicazioneAlternativaAumentativa🖼</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">WorkInProgress</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">iaMAN</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">V.D.F.</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">AHI-AHI-AHI</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">Leoni Turchesi Vanigliati</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">SmashAI</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Creative</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">theForecasters</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">MontyPython</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Cypher</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Coughntrol</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">NOT_FOUND</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">LittleBit</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">La Triade</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">CTRL+C CTRL+V</td>
+<td style="text-align:right">3</td>
+</tr>
+</tbody>
+</table>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

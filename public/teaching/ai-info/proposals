@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>proposals | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<p>In this section you will find a curated list of project proposals for integration into coursework or as a thesis or dissertation topic.</p>
+<hr>
+<h2>[EDU01] Predicting University Dropout Risk</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Predict the probability of first-year students at the University of Bologna to drop out using academic data.</li>
+<li>Implement machine learning algorithms and MLOps with real-time data processing for dynamic risk prediction updates.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>Research papers on student dropout risk and predictive models.</li>
+<li>Data from the academic records of the University of Bologna.</li>
+<li>Reference paper: <a href="https://link.springer.com/chapter/10.1007/978-3-030-52237-7_11">Springer Link</a>.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Explore machine learning techniques suitable for dynamic data analysis.</li>
+<li>Focus on building models that can update predictions in real time using a combination of ML and MLOps.</li>
+</ul>
+<hr>
+<h2>[EDU02] Predicting Low Achievement in Secondary School</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Use INVALSI test data to predict low performance in subjects such as math, Italian, or English.</li>
+<li>Incorporate sentiment analysis and natural language processing for a comprehensive understanding of student performance.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>INVALSI test data.</li>
+<li>Research on sentiment analysis in education.</li>
+<li>Reference paper: <a href="https://link.springer.com/chapter/10.1007/978-3-031-11644-5_76">Springer Link</a>.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Integrate quantitative test data with qualitative feedback analysis.</li>
+<li>Use natural language processing to interpret student feedback.</li>
+</ul>
+<hr>
+<h2>[MED01] Predicting Rehabilitation Quality</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Use video data from patients' medical histories to predict rehabilitation quality outcomes.</li>
+<li>Use advanced computer vision and deep learning for accurate analysis.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>Video data from the Istituto Ortopedico Rizzoli.</li>
+<li>Computer vision research in medical applications.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Application of deep learning models to interpret video data.</li>
+<li>Focus on motion analysis and tracking over time.</li>
+</ul>
+<hr>
+<h2>[VOO01] Predicting Olive Oil Quality and Origin</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Collaboration with Carapelli Firenze S.p.A. and the University of Firenze to predict the quality and origin of olive oil using chemical analysis.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>Raw chemical analysis data of olive oil (gas chromatography-mass spectrometry).</li>
+<li>Reference paper: <a href="https://www.sciencedirect.com/science/article/pii/S0956713520300724">ScienceDirect link</a>.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Analysis of chemical properties of olive oil samples.</li>
+</ul>
+<hr>
+<h2>[LLM01] Few-Shot Learning Analysis in Language Models</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Evaluate the learning capabilities of a language model (LLM) in few-shot scenarios.</li>
+<li>Investigate transfer learning to improve model adaptability and efficiency.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>Conduct an ablation study comparing zero-shot, one-shot, and few-shot techniques on the same model.</li>
+<li>Reference for zero-shot and few-shot learning: <a href="https://arxiv.org/abs/2005.14165">arXiv link</a>.</li>
+<li>The choice of task and model is at the student's discretion.</li>
+<li>It is recommended to use manageable model sizes.</li>
+<li>Pre-trained models and open source datasets are available at <a href="https://huggingface.co/">Hugging Face</a>.</li>
+<li>Google Colab (<a href="https://colab.research.google.com/">Colab Link</a>) can be used for computing resources.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Conduct an ablation study comparing zero-shot, one-shot, and few-shot techniques.</li>
+<li>Explore the effectiveness of transfer learning in few-shot scenarios.</li>
+</ul>
+<hr>
+<h2>[LLM02] Analyzing Biases in Language Models</h2>
+<p><strong>Objectives:</strong></p>
+<ul>
+<li>Empirically investigate the presence of bias in LLMs trained without reinforcement learning.</li>
+<li>Implement bias detection algorithms and ethical AI frameworks.</li>
+</ul>
+<p><strong>Supporting Material:</strong></p>
+<ul>
+<li>Use moderate-sized models.</li>
+<li>Reference paper: <a href="https://arxiv.org/abs/2004.09456">arXiv link</a>.</li>
+<li>Pre-trained models and datasets available at <a href="https://huggingface.co/">Hugging Face</a>.</li>
+<li>Investigate whether few-shot learning can mitigate bias (<a href="https://arxiv.org/abs/2005.14165">arXiv Definition</a>).</li>
+<li>Google Colab (<a href="https://colab.research.google.com/">Colab Link</a>) for computational resources.</li>
+</ul>
+<p><strong>Guidelines:</strong></p>
+<ul>
+<li>Analyze text generation for bias patterns.</li>
+<li>Apply and test different bias detection and mitigation strategies.</li>
+</ul>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Colpisci l&#39;Insetto | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<p><img src="assets/1.png" alt="Screenshot"></p>
+<h2>Obiettivo</h2>
+<p>Imparare i concetti di base di Intelligenza Artificiale e della programmazione, creando un semplice gioco in Scratch.</p>
+<p>Puoi scaricare la versione PDF di questa attività <a href="colpisci-l-insetto.pdf">qui</a>.<br>
+{: .notice--info}</p>
+<h2>Materiale necessario</h2>
+<ul>
+<li>Un computer con accesso a Internet</li>
+</ul>
+<h2>Istruzioni</h2>
+<h3>Fase 1: Preparazione</h3>
+<p><strong>🌐 Andare sul sito</strong>: Vai su <a href="https://scratch.machinelearningforkids.co.uk">Scratch</a>, personalizzato per il nostro progetto.</p>
+<p><strong>Nota!</strong> In ogni momento, puoi cambiare la lingua del sito cliccando su <code>⚙️ Settings</code> in alto a sinistra e selezionando la lingua desiderata (ad esempio <code>Italiano</code>).<br>
+{: .notice--info}</p>
+<p><strong>📑 Selezionare il Template</strong>: Clicca su <code>Modelli di progetto</code> e poi su <code>Shoot the bug</code> (colpisci l'insetto).</p>
+<p><img src="assets/2.png" alt="Screenshot"></p>
+<h3>Fase 2: Familiarizzazione</h3>
+<p><strong>🕹️ Esplorare il Gioco</strong>: Trova il blocco <code>quando si clicca su [bandiera verde]</code></p>
+<p><img src="assets/3.png" alt="Screenshot"></p>
+<p>e attacca il blocco <code>play manually</code> (gioca manualmente).</p>
+<p><img src="assets/4.png" alt="Screenshot"></p>
+<p><strong>🎮 Prova a Giocare</strong>: Usa le frecce direzionali per mirare e premi la barra spaziatrice per sparare.</p>
+<h3>Fase 3: Raccogliere Dati</h3>
+<p><strong>📝 Esempi</strong>: Gioca diverse volte e prendi nota degli angoli e delle coordinate dove hai colpito o mancato l'insetto.</p>
+<p><strong>Cosa abbiamo fatto finora?</strong><br>
+Fino a questo momento, hai giocato a un gioco in Scratch.<br>
+Ogni volta che giochi, l'insetto si sposta in una posizione casuale.<br>
+L'obiettivo del gioco è colpire l'insetto con una pallina.<br>
+Un ostacolo è presente, quindi è necessario far rimbalzare la pallina su una parete laterale per superarlo.<br>
+Le coordinate dell'insetto vengono visualizzate nell'angolo in basso a sinistra dello schermo del gioco, mentre l'angolo di lancio della pallina è mostrato nell'angolo in basso a destra.<br>
+{: .notice--warning}</p>
+<p><strong>Cosa faremo dopo?</strong><br>
+In questo progetto, vogliamo far decidere al computer a quale angolo tirare, in base alla posizione dell'insetto.<br>
+Potresti farlo scrivendo del codice per calcolare l'angolo corretto di lancio, basandoti sulla posizione (potrai provarci a casa se vorrai).<br>
+Tuttavia, per questo progetto, addestrerai il computer affinché <em>impari autonomamente</em> come tirare all'insetto.<br>
+Raccoglierai esempi del gioco in azione e li utilizzerai per addestrare un modello che può prevedere se un tiro sotto un certo angolo andrà a segno o meno.<br>
+{: .notice--info}</p>
+<h3>Fase 4: Addestramento</h3>
+<h4>Parte 1: Inizializzazione</h4>
+<p><strong>🌐 Aprire il Browser</strong>: Vai su <a href="https://machinelearningforkids.co.uk/">machinelearningforkids.co.uk</a>.</p>
+<p><img src="assets/5.png" alt="Screenshot"></p>
+<p><strong>🚀 Iniziare</strong>: Clicca su <code>Iniziamo</code>.</p>
+<p><strong>👀 Prova Ora</strong>: Clicca su <code>Prova subito</code>.</p>
+<p><strong>🆕 Nuovo Progetto</strong>: Clicca sul pulsante <code>+ Aggiungi un nuovo progetto</code>.</p>
+<p><strong>📛 Nominare il Progetto</strong>: Dai un nome al progetto (ad esempio <em>Catturami</em>) e impostalo per riconoscere <code>numeri</code>.</p>
+<p><strong>➕ Aggiungi un Valore</strong>: Clicca sul bottone <code>ADD A VALUE</code>.</p>
+<p><img src="assets/6.png" alt="Screenshot"></p>
+<p><strong>🔠 Crea un valore per la coordinata 'x'</strong>: Crea un valore numerico chiamato <code>x</code>, poi clicca su <code>ADD ANOTHER VALUE</code>.</p>
+<p><strong>📐 Crea un valore per l'angolo 'angle'</strong>: Crea un valore numerico chiamato <code>angle</code>.</p>
+<p><strong>✅ Conferma</strong>: Clicca sul pulsante <code>CREA</code>.</p>
+<p><img src="assets/7.png" alt="Screenshot"></p>
+<p><strong>🔍 Seleziona il Progetto</strong>: Il progetto appena creato verrà aggiunto alla tua lista. Clicca su di esso.</p>
+<p><strong>🛠 Prepara le Predizioni</strong>: Clicca sul pulsante <code>Addestramento</code>.</p>
+<p><img src="assets/8.png" alt="Screenshot"></p>
+<p><strong>🏷 Etichette</strong>: Clicca su <code>+ Aggiungi una nuova etichetta</code> e chiamalo <code>hit</code>.<br>
+Ripeti l'azione, creando un secondo contenitore chiamato <code>miss</code>.</p>
+<p><img src="assets/9.png" alt="Screenshot"></p>
+<h4>Parte 2: Implementazione in Scratch</h4>
+<p><strong>🔙 Torna al Progetto</strong>: Clicca su <code>&lt; Ritorna ai progetti</code> in alto a sinistra.</p>
+<p><strong>🛠️ Avvia la Modalità di Costruzione</strong>: Clicca su <code>Programma</code>.</p>
+<p><strong>🔲 Scegli la Piattaforma</strong>: Clicca su <code>Scratch 3</code>.</p>
+<p><strong>🔓 Accedi a Scratch</strong>: Clicca su <code>straight into Scratch</code>.</p>
+<p><img src="assets/10.png" alt="Screenshot"></p>
+<p><strong>📄 Template di Progetto</strong>: Clicca su <code>Modelli di progetto</code> e apri nuovamente il template <code>shoot the bug</code>.</p>
+<p><strong>⚙️ Configurazione Iniziale</strong>: Connetti <code>play manually</code> al blocco <code>quando si clicca su [bandiera verde]</code>, come hai fatto in precedenza.</p>
+<p><img src="assets/4.png" alt="Screenshot"></p>
+<p><strong>🔍 Identifica il gruppo di blocchi</strong>: Trova il gruppo di blocchi per <code>hit</code> e <code>miss</code>.</p>
+<p><img src="assets/11.png" alt="Screenshot"></p>
+<p><strong>📈 Aggiungi Dati di Addestramento a 'hit'</strong>: Aggiungi un blocco <code>add training data</code> al gruppo di blocchi <code>hit</code>.<br>
+<em>Questo aggiungerà un esempio di addestramento alle etichette <code>hit</code> ogni volta che colpisci l'insetto.</em><br>
+<em>Assicurati di aggiungere le nostre variabili <code>x</code> e <code>angle</code> nei posti giusti.</em></p>
+<p><img src="assets/12.png" alt="Screenshot"></p>
+<p><strong>📈 Aggiungi Dati di Addestramento a 'miss'</strong>: Aggiungi un blocco <code>add training data</code> al gruppo di blocchi <code>miss</code>.<br>
+<em>Questo aggiungerà un esempio di addestramento alle etichette <code>miss</code> ogni volta che manchi l'insetto.</em><br>
+<em>Assicurati di aggiungere le nostre variabili <code>x</code> e <code>angle</code> nei posti giusti.</em></p>
+<p><img src="assets/13.png" alt="Screenshot"></p>
+<p><strong>🎮 Test del Gioco</strong>: Clicca sulla <code>Bandiera Verde</code> e gioca. Prova a colpire l'insetto!</p>
+<p><img src="assets/14.png" alt="Screenshot"></p>
+<p><strong>🔄 Ritorna alla Piattaforma di ML</strong>: Nella finestra del browser ancora aperta sullo strumento di machine learning, clicca su <code>&lt; Ritorna ai progetti</code> in alto a sinistra.</p>
+<p><strong>🏋️ Addestramento del Modello</strong>: Clicca su <code>Addestramento</code>.<br>
+<em>Controlla che <code>x</code> e <code>angle</code> del tiro che hai appena fatto sia stato aggiunto agli esempi di addestramento tra le etichette corrette.</em></p>
+<p><img src="assets/15.png" alt="Screenshot"></p>
+<h3>Fase 5: Test e Miglioramento del Modello</h3>
+<p><strong>🔄 Ritorna a Scratch</strong>: Gioca al gioco altre <strong>quattordici</strong> volte. Potrebbe essere più semplice giocare in modalità schermo intero.</p>
+<p><strong>📊 Controlla gli Esempi di Addestramento</strong>: Cerca di colpire più tiri possibili, ma non preoccuparti se ne manchi alcuni.</p>
+<p><img src="assets/16.png" alt="Screenshot"></p>
+<p><strong>🔄 Aggiorna il gruppo di blocchi</strong>: Modifica il gruppo di blocchi <code>quando si clicca su [la bandiera verde]</code> in modo che usi <code>play randomly</code> (gioca casualmente) invece di <code>play manually</code> (gioca manualmente).<br>
+<em>Usare il gioco casuale ti darà un miglior mix di di esempi e renderà più veloce e facile collezionare esempi!</em></p>
+<p><img src="assets/17.png" alt="Screenshot"></p>
+<p><strong>🚀 Raccogli Altri Esempi</strong>: Clicca sulla Bandiera Verde per raccogliere altri esempi.<br>
+Fallo almeno <em>trenta</em> volte!</p>
+<p><img src="assets/18.png" alt="Screenshot"></p>
+<p><strong>🔮 Utilizza il Modello di Apprendimento</strong>: Modifica il gruppo di blocchi <code>quando si clicca su [la bandiera verde]</code> in modo che usi <code>play using machine learning model</code> (giocan usando il modello di apprendimento automatico) invece di <code>play randomly</code> (gioca casualmente).</p>
+<p><img src="assets/19.png" alt="Screenshot"></p>
+<p><strong>🧠 Addestra un Nuovo Modello</strong>: Aggiungi un blocco <code>formare un nuovo modello di apprendimento automatico</code> al blocco <code>quando si clicca su [la bandiera verde]</code>.</p>
+<p><img src="assets/20.png" alt="Screenshot"></p>
+<p><strong>🔍 Trova il gruppo di blocchi di Scelta Direzione</strong>: Trova il gruppo di blocchi <code>choose direction using machine learning</code> (scegli la direzione usi il machine learning).</p>
+<p><img src="assets/21.png" alt="Screenshot"></p>
+<p><strong>🔄 Aggiorna il gruppo di blocchi per Utilizzare il Tuo Modello</strong>: Modifica il gruppo di blocchi per utilizzare il tuo modello di machine learning.<br>
+<em>In questo modo il computer deciderà casualmente a che angolo tirare, ma sceglierà questo angolo solo se il modello di machine learning prevede che il tiro andrà a segno (hit).</em></p>
+<p><img src="assets/22.png" alt="Screenshot"></p>
+<p><strong>🕵️ Valuta l'Efficacia del Tuo Modello</strong>: Prova qualche tiro!<br>
+Quanto è efficace il tuo modello di machine learning nel scegliere gli angoli che colpiranno l'insetto? <strong>Tanto</strong>, <strong>poco</strong> o <strong>per niente</strong>?</p>
+<p><strong>Cosa hai fatto finora?</strong> Hai iniziato ad addestrare un computer per giocare a un gioco.<br>
+Invece di scrivere regole per farlo o calcolare l'equazione per determinare l'angolo di lancio della palla, lo stai facendo raccogliendo esempi.<br>
+Questi esempi sono utilizzati per addestrare una Intelligenza Artificiale.<br>
+Il computer imparerà dagli esempi.<br>
+Utilizzerà questi per fare previsioni se una posizione e un angolo porteranno a un colpo andato a segno o a un errore.<br>
+Poiché hai ancora i blocchi <code>add training data</code> (aggiungi dati di addestramento) nel tuo gruppo di blocchi <code>hit</code> e <code>miss</code>, stai ancora raccogliendo ulteriori esempi di addestramento ogni volta che giochi.<br>
+Questo significa che più tempo permetterai al tuo modello di Intelligenza Artificiale di giocare al gioco, più diventerà abile nel farlo!!<br>
+{: .notice--warning}</p>
+<h3>Fase 6: Comprensione del Comportamento del Modello di Apprendimento Automatico</h3>
+<blockquote>
+<p><strong>Nota</strong>: Questa sezione è <strong>avanzata</strong> poiché richiede una conoscenza profonda dei concetti di coordinata e angolo. Se te la senti vai avanti oppure passa alla sezione</p>
+</blockquote>
+<p><strong>📊 Analisi degli Errori del Modello</strong>: Quante volte il tuo modello di apprendimento automatico sta sbagliando (ad esempio su 10 tiri)? Se sbaglia troppo spesso (numero di errori maggiore di 7), potrebbe essere perché non hai fornito abbastanza esempi di colpi andati a segno.<br>
+Cambia il gioco in modalità manuale (gioca manualmente) e usa nuovamente i tasti freccia.<br>
+Raccogli almeno altri <strong>dieci</strong> colpi andati a segno.<br>
+Poi, torna alla modalità di gioco con il modello di apprendimento automatico e verifica se è migliorato.</p>
+<p><strong>🎯 Raccolta di Esempi di Addestramento</strong>: Continua a raccogliere esempi di addestramento fino a quando il tuo modello di apprendimento automatico non inizia a migliorare nel gioco.<br>
+<em>Di quanti esempi ha avuto bisogno il tuo modello? (il mio ha avuto bisogno di più di 100 esempi...)</em></p>
+<p><img src="assets/23.png" alt="Screenshot"></p>
+<p><strong>🔄 Navigazione al Progetto</strong>: Fai clic su <code>&lt; Ritorna ai progetti</code>.</p>
+<p><strong>📚 Apprendimento e Test</strong>: Fai clic su <code>Impara &amp; Testa</code>.</p>
+<p><img src="assets/24.png" alt="Screenshot"></p>
+<p><strong>🔍 Descrizione del Modello</strong>: Fai clic su <code>Describe your model!</code>.<br>
+Questa pagina ti mostrerà un'immagine del tuo modello di apprendimento automatico.<br>
+Leggi la pagina per capire cosa significa.<br>
+Prova a inserire valori per la coordinata <code>x</code> e un <code>angle</code> di tiro, poi fai clic su <code>Prova</code> per vedere come il tuo modello di apprendimento automatico fa una previsione su cosa accadrà.</p>
+<p><img src="assets/25.png" alt="Screenshot"></p>
+<p><strong>🔮 Verifica delle Previsioni</strong>: Utilizza questa visualizzazione e il gioco in Scratch in modalità manuale per vedere quali previsioni sta facendo il tuo modello di apprendimento automatico e se sono corrette.</p>
+<p><strong>Cosa Hai Fatto Finora?</strong> In questa fase, hai addestrato un modello di apprendimento automatico noto come <code>albero decisionale classificatore</code> (<em>decision tree classifier</em>).<br>
+La visualizzazione ti consente di comprendere come il tuo modello effettua previsioni.<br>
+È un modo efficace per osservare quali schemi il computer ha individuato nei dati di addestramento che hai raccolto.<br>
+{: .notice--warning}</p>
+<h4>È un Buon Utilizzo dell'Apprendimento Automatico?</h4>
+<p>Riflettiamo sulle applicazioni appropriate dell'apprendimento automatico. Utilizziamo questa tecnologia quando desideriamo che i computer eseguano compiti troppo complicati per essere descritti da istruzioni esplicite.</p>
+<p>Evitiamo l'apprendimento automatico quando il tempo necessario per raccogliere esempi di addestramento supera quello per scrivere direttamente le istruzioni per il compito.</p>
+<p>Confronta lo sforzo impiegato per raccogliere gli esempi di addestramento con lo sforzo che avrebbe richiesto calcolare l'angolo di tiro. Pensi che questo gioco sia un buon uso dell'apprendimento automatico?</p>
+<p><img src="assets/26.png" alt="Screenshot"></p>
+<p>E se il gioco fosse reso più difficile? Ad esempio, se ci fossero più ostacoli o se l'insetto potesse apparire a diverse altezze? Queste complicazioni renderebbero le equazioni per calcolare l'angolo di tiro molto più intricate.</p>
+<p>Questo renderebbe l'apprendimento automatico un'opzione più conveniente per gestire il gioco, sebbene richiederebbe probabilmente più esempi di addestramento data la maggiore complessità del compito.</p>
+<p>(Puoi provare a casa a implementare questi miglioramenti e vedere di persona se questo è il caso!)</p>
+<hr>
+<h3>Fase 7: Idee ed Estensioni</h3>
+<p>Ora che hai completato il progetto, perché non provare una di queste idee, o magari crearne una tutta tua?</p>
+<h4>Aggiungi Ostacoli Supplementari</h4>
+<p>Rendi il gioco più impegnativo inserendo ulteriori ostacoli sullo schermo di gioco.<br>
+Dovrai aggiornare il gruppo di blocchi <code>start moving</code> in modo che la palla sappia come rimbalzare sui nuovi ostacoli.</p>
+<h4>Utilizza le Coordinate x e y</h4>
+<p>Per ridurre la quantità di addestramento necessario, abbiamo utilizzato solo una coordinata (coordinata x) permettendo all'insetto di muoversi solo da sinistra a destra.<br>
+Prova a rifare il progetto consentendo all'insetto di spostarsi anche in altezza (posizione y).<br>
+Dovrai aggiungere un nuovo valore numerico per memorizzare questa coordinate quando crei il progetto di apprendimento automatico.</p>
+<h4>Rendilo Competitivo!</h4>
+<p>Prova ad aggiungere una variabile per tenere il punteggio e vedere se il tuo modello di apprendimento automatico può ottenere un punteggio più alto del tuo.</p>
+<hr>
+<h2>Licenza</h2>
+<p>Questo foglio di progetto è distribuito sotto licenza <code>Creative Commons Attribution Non-Commercial Share-Alike</code> (<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

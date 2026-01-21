@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Academic Dropout | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<h3>Analysis of Factors Influencing Academic Dropout Rates</h3>
+<blockquote>
+<p>Is there any correlation between academic performance indicators and student dropout rates?<br>
+The analysis focuses on three key performance indicators collected over five academic years (2016-2020): <em>average exam grades</em>, <em>number of honours</em> and <em>total ECTS credits earned</em>.<br>
+The study aims to identify consistent patterns that could inform strategies to improve student retention.</p>
+</blockquote>
+<hr>
+<h4>Introduction</h4>
+<p>School dropout is a critical issue affecting educational institutions worldwide.<br>
+Identifying the factors that contribute to dropout rates is essential for developing effective interventions.<br>
+This study analyses historical data from 2016 to 2020, focusing on the relationship between academic performance and dropout rates.</p>
+<hr>
+<h4>Methodology</h4>
+<p>The datasets for each year included variables such as age at enrolment, gender, type of school, geographical location, economic class and key academic performance indicators.<br>
+The study focused on three variables: average exam grades, number of honours and total ECTS credits at the end of the first year of enrolment.<br>
+The data were categorised into dropout and non-dropout groups.<br>
+<a href="https://uwe-repository.worktribe.com/output/915692">Welch's t-tests</a> were used to compare means between these groups, taking into account unequal variances and sample sizes.</p>
+<hr>
+<h4>Results</h4>
+<p>The analysis revealed significant differences in all three academic measures between dropouts and non-dropout students across all years.<br>
+Key findings include:</p>
+<ul>
+<li><strong>Average exam grades</strong>: Dropout students consistently had lower average exam grades than their counterparts. Note that many students who dropped out did not take exams and were awarded a grade of 0 (and thus the average mark is low).<br>
+<img src="../../assets/img/academic-risk/avg-exam-grades.png" alt="Average exam grades"></li>
+<li><strong>Number of Honours</strong>: Where data was reliable (2018-2020), students who dropped out were awarded fewer honours.<br>
+<img src="../../assets/img/academic-risk/number-of-honours.png" alt="Number of Honours"></li>
+<li><strong>Total ECTS credits</strong>: Dropout students consistently earned fewer ECTS credits.<br>
+<img src="../../assets/img/academic-risk/total-ects-credits.png" alt="Total ECTS credits"></li>
+</ul>
+<hr>
+<h4>Discussion</h4>
+<p>The results underline the strong correlation between academic performance and dropout rates.<br>
+Lower exam marks and fewer credits indicate that academic difficulties are a key factor in the decision to drop out.<br>
+This pattern was consistent across all years studied, indicating a persistent trend.</p>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<h2>Title</h2>
+<p>Enhancing Business Master Courses through AI-Driven Quality Assessment and Innovation Policy Development</p>
+<h3>Abstract:</h3>
+<p>This project aims to leverage artificial intelligence (AI) to develop advanced algorithms capable of assessing the quality of business master courses and informing teaching innovation policies. By analyzing historical data, including students' feedback and changes in teaching organization, the project seeks to identify patterns and insights that can drive improvements in educational outcomes.</p>
+<h3>Objectives:</h3>
+<ol>
+<li>Develop AI algorithms to assess the quality of business master courses based on historical data.</li>
+<li>Analyze students' feedback and teaching organization changes to identify key factors influencing course quality.</li>
+<li>Use the insights gained to inform teaching innovation policies and drive improvements in educational outcomes.</li>
+</ol>
+<h3>Project Description:</h3>
+<p>The project will be divided into three main phases: data collection and preprocessing, algorithm development, and policy implementation.</p>
+<h4>Phase 1: Data Collection and Preprocessing</h4>
+<p>The first phase will involve gathering historical data from various sources, including students' feedback, course evaluations, and teaching organization changes. This data will be cleaned, normalized, and organized to facilitate analysis.</p>
+<h4>Phase 2: Algorithm Development</h4>
+<p>In this phase, we will develop AI algorithms to assess the quality of business master courses. The algorithms will be designed to analyze the collected data and identify key factors that contribute to course quality. These factors may include teaching methods, course content, instructor qualifications, and student engagement.</p>
+<p>We will employ machine learning techniques, such as supervised learning, unsupervised learning, and deep learning, to develop the algorithms. The algorithms will be trained and tested using the historical data, and their performance will be evaluated based on accuracy, precision, and recall.</p>
+<h4>Phase 3: Policy Implementation</h4>
+<p>The final phase will involve using the insights gained from the AI algorithms to inform teaching innovation policies. We will work closely with educational institutions to develop and implement policies that address the identified factors contributing to course quality. These policies may include changes in teaching methods, course content, and instructor training programs.</p>
+<p>The project will also explore the potential of using AI-driven insights to drive continuous improvement in teaching practices. By regularly analyzing new data and updating the algorithms, we can ensure that the policies remain relevant and effective in improving course quality.</p>
+<h3>Expected Outcomes:</h3>
+<ol>
+<li>A set of AI algorithms capable of assessing the quality of business master courses based on historical data.</li>
+<li>A comprehensive analysis of the factors influencing course quality, including students' feedback and teaching organization changes.</li>
+<li>A set of teaching innovation policies informed by AI-driven insights, aimed at improving educational outcomes.</li>
+<li>A framework for continuous improvement in teaching practices, leveraging AI-driven insights and data analysis.</li>
+</ol>
+<h3>Conclusion:</h3>
+<p>This project will contribute to the advancement of AI in education by developing algorithms to assess the quality of business master courses and inform teaching innovation policies. By leveraging historical data and AI-driven insights, we can drive improvements in educational outcomes and foster a culture of continuous improvement in teaching practices.</p>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<h1>Contributing to Academic Website</h1>
+<p>Thank you for your interest in contributing! This document provides guidelines for contributing to this project.</p>
+<h2>Development Setup</h2>
+<h3>Prerequisites</h3>
+<ul>
+<li>Node.js 18+ (use the version specified in <code>.nvmrc</code>)</li>
+<li>npm 9+</li>
+</ul>
+<h3>Getting Started</h3>
+<ol>
+<li>Fork and clone the repository</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/lozingaro/lozingaro.github.io.git
+<span class="token builtin class-name">cd</span> lozingaro.github.io</code></pre>
+<ol start="2">
+<li>Install dependencies</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span></code></pre>
+<ol start="3">
+<li>Start development server</li>
+</ol>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> start</code></pre>
+<p>The site will be available at <code>http://localhost:8080/</code></p>
+<h2>Development Workflow</h2>
+<h3>Running the Development Server</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> start          <span class="token comment"># Start dev server with hot reload</span>
+<span class="token function">npm</span> run build      <span class="token comment"># Build for development</span>
+<span class="token function">npm</span> run build:prod <span class="token comment"># Build for production</span>
+<span class="token function">npm</span> run clean      <span class="token comment"># Clean build directory</span></code></pre>
+<h3>Code Formatting</h3>
+<p>This project uses Prettier for code formatting:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run <span class="token function">format</span>       <span class="token comment"># Format all files</span>
+<span class="token function">npm</span> run format:check <span class="token comment"># Check formatting</span></code></pre>
+<h2>Project Structure</h2>
+<ul>
+<li><code>*.md</code> - Content pages (Markdown)</li>
+<li><code>_layouts/</code> - Nunjucks templates</li>
+<li><code>assets/</code> - Stylesheets, images, PDFs</li>
+<li><code>teaching/</code>, <code>research/</code> - Content sections</li>
+<li><code>.eleventy.js</code> - Eleventy configuration</li>
+</ul>
+<h2>Commit Guidelines</h2>
+<ul>
+<li>Use clear, descriptive commit messages</li>
+<li>Keep commits focused and atomic</li>
+<li>Reference issues when applicable</li>
+</ul>
+<h2>Pull Request Process</h2>
+<ol>
+<li>Ensure your code follows the project's formatting standards</li>
+<li>Test your changes locally</li>
+<li>Update documentation if needed</li>
+<li>Create a pull request with a clear description</li>
+</ol>
+<h2>Questions?</h2>
+<p>Feel free to open an issue for questions or discussions.</p>

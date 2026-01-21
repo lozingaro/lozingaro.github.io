@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Security: Enforce HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <!-- Performance: Preconnect and DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <title>Modello di report | stefano zingaro</title>
+    <meta name="description" content="Academic website - Stefano Pio Zingaro">
+    
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/conf/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="wrapper">
+        <a class="site-title" rel="author" href="/">stefano zingaro</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            <a class="page-link" href="/contact/">contact</a>
+            <a class="page-link" href="/teaching/">teaching</a>
+            <a class="page-link" href="/research/">research</a>
+            <a class="page-link" href="/publications/">publications</a>
+            <a class="page-link" href="/talks/">talks</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+<h2>1. Introduction</h2>
+<h3>Problem Description</h3>
+<ul>
+<li>Motivation for the problem and its relevance.</li>
+<li>Target audience interested in the problem.</li>
+<li>Benefits of a proposed solution.</li>
+</ul>
+<h3>Proposed Solution</h3>
+<ul>
+<li>Approach to the solution.</li>
+<li>Computational challenges faced.</li>
+<li><code>[extra]</code> Literature Review[^1].</li>
+<li>Task distribution within the group.</li>
+<li>Summary of achieved results.</li>
+</ul>
+<h2>2. Proposed Method</h2>
+<h3>Solution Choice</h3>
+<ul>
+<li>Alternative solutions considered and justification for the chosen approach.</li>
+<li>Methodology for performance measurement.</li>
+</ul>
+<h2>3. Experimental Results</h2>
+<h3>Demonstration and Technologies</h3>
+<ul>
+<li>Instructions for the demonstration.</li>
+<li>Technologies and versions used (for reproducibility).</li>
+</ul>
+<h3>Results</h3>
+<ul>
+<li>Results of the best configuration.</li>
+<li>Ablation Study: Comparison across configurations.</li>
+<li><code>[extra]</code> Comparative Study with Literature[^1].</li>
+</ul>
+<h2>4. Discussion and Conclusions</h2>
+<h3>Results Discussion</h3>
+<ul>
+<li>Analysis of performance in relation to expectations.</li>
+</ul>
+<h3>Method Validity</h3>
+<ul>
+<li>Evaluation if the method meets expectations.</li>
+</ul>
+<h3>Limitations and Maturity</h3>
+<ul>
+<li>Limits of applicability and biases.</li>
+<li>Technological maturity of the solution.</li>
+</ul>
+<h3>Future Works</h3>
+<ul>
+<li>Proposals to advance the project.</li>
+</ul>
+<p>[^1]: <code>[extra]</code> sections mandatory for groups with more than two members.</p>
+
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </div>
+                <div class="footer-col">
+                    <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
+                </div>
+                <div class="footer-col">
+                    <a href="//www.cs.unibo.it/projects/privacy/nocookie/privacy.pdf" target="_blank">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lazy loading script for images -->
+    <script>
+      if ('loading' in HTMLImageElement.prototype) {
+        // Native lazy loading is supported
+      } else {
+        // Fallback for browsers che don't support native lazy loading
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.src = entry.target.dataset.src;
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>
