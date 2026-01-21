@@ -22,6 +22,11 @@
       <div class="wrapper">
         <a class="site-title" rel="author" href="/">stefano zingaro</a>
         <nav class="site-nav">
+          <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div class="trigger">
             <a class="page-link" href="/contact/">contact</a>
             <a class="page-link" href="/teaching/">teaching</a>
@@ -74,7 +79,7 @@
         <div class="wrapper">
             <div class="footer-col-wrapper">
                 <div class="footer-col">
-                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
                 </div>
                 <div class="footer-col">
                     <a href="https://www.unibo.it/sitoweb/stefano.zingaro" target="_blank">Official home page</a>
@@ -103,6 +108,24 @@
         });
         images.forEach(img => imageObserver.observe(img));
       }
+    </script>
+    <script>
+      function toggleMenu() {
+        const menuIcon = document.querySelector(".menu-icon");
+        const trigger = document.querySelector(".site-nav .trigger");
+        menuIcon.classList.toggle("active");
+        trigger.classList.toggle("active");
+      }
+      
+      // Close menu when clicking outside
+      document.addEventListener("click", function(event) {
+        const nav = document.querySelector(".site-nav");
+        const menuIcon = document.querySelector(".menu-icon");
+        if (!nav.contains(event.target)) {
+          menuIcon.classList.remove("active");
+          document.querySelector(".site-nav .trigger").classList.remove("active");
+        }
+      });
     </script>
   </body>
 </html>

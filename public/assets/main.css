@@ -151,6 +151,7 @@ blockquote {
 .site-nav {
   line-height: 2.5rem;
   flex: 1 1 auto;
+  position: relative;
 }
 .site-nav .trigger {
   display: flex;
@@ -162,18 +163,60 @@ blockquote {
   display: inline-block;
   transition: color 0.2s ease;
 }
-@media screen and (max-width: 600px) {
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  z-index: 1001;
+}
+.menu-icon span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #424242;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 768px) {
   .site-nav {
-    margin-top: 0.5rem;
-    width: 100%;
+    margin-top: 0;
+  }
+  .menu-icon {
+    display: block;
+    margin-left: auto;
+  }
+  .menu-icon.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .menu-icon.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-icon.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
   .site-nav .trigger {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 0.75rem 1rem;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 15px;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  .site-nav .trigger.active {
+    display: flex;
   }
   .site-nav .page-link {
-    padding: 0.25rem 0;
+    padding: 0.5rem 0;
+    display: block;
   }
 }
 
