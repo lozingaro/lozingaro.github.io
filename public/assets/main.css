@@ -328,6 +328,23 @@ li {
   margin-bottom: 0.5rem;
 }
 
+figure.poem {
+  margin: 2rem 0;
+}
+figure.poem blockquote {
+  border-left: none;
+  padding-left: 0;
+  font-style: italic;
+  color: #111;
+  font-size: 1.05rem;
+  line-height: 2;
+  margin-bottom: 0.5rem;
+}
+figure.poem figcaption {
+  font-size: 0.85rem;
+  color: #828282;
+}
+
 .clearfix::after {
   content: "";
   display: table;
