@@ -134,20 +134,9 @@ main { flex: 1; }
   font-size: .85rem;
   color: #444;
 }
-.footer-col-wrapper { display: flex; flex-wrap: wrap; gap: .75rem; }
-.footer-col { flex: 1; min-width: 160px; }
-.footer-col a { color: #111; }
+.site-footer a { color: #111; }
 
 /* ── Components ── */
-.thumbnail {
-  width: 70px;
-  height: 70px;
-  border: 2px solid #111;
-  margin-right: 1rem;
-  margin-bottom: .75rem;
-  display: inline-block;
-  vertical-align: top;
-}
 
 .notice--warning {
   background: #f5e614;
