@@ -152,6 +152,39 @@ main { flex: 1; }
   background: #f4fbf0;
 }
 
+/* ── Nav panels (homepage) ── */
+.nav-panels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .9rem;
+  margin: 2rem 0;
+}
+.nav-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #111;
+  padding: 1.4rem .75rem 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  gap: .7rem;
+  min-height: 110px;
+}
+.nav-panel:visited { color: #111; }
+.nav-panel:hover   { background: #f5e614; color: #111; text-decoration: none; }
+.nav-panel-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .85rem;
+}
+@media (max-width: 480px) {
+  .nav-panels { grid-template-columns: 1fr; }
+}
+
 figure.poem { margin: 2rem 0; }
 figure.poem blockquote {
   border-left: none;
