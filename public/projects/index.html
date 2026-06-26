@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Security: Enforce HTTPS -->
-    
-    <!-- Performance: Preconnect and DNS prefetch -->
-    
-    <title>stefano zingaro</title>
+
+    <title>progetti | stefano zingaro</title>
     <meta name="description" content="Academic website - Stefano Pio Zingaro">
-    
+
     <link rel="stylesheet" href="/assets/main.css">
     <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -39,27 +35,10 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<ul>
+<li><a href="https://lozingaro.github.io/ipnoscopio">Ipnoscopio</a>: oscilloscopio per browser. Nessun fisico è rimasto ferito.</li>
+</ul>
 
       </div>
     </main>
@@ -70,12 +49,10 @@
         </div>
     </footer>
 
-    <!-- Lazy loading script for images -->
     <script>
       if ('loading' in HTMLImageElement.prototype) {
         // Native lazy loading is supported
       } else {
-        // Fallback for browsers che don't support native lazy loading
         const images = document.querySelectorAll('img[loading="lazy"]');
         const imageObserver = new IntersectionObserver((entries, observer) => {
           entries.forEach(entry => {
@@ -95,8 +72,7 @@
         menuIcon.classList.toggle("active");
         trigger.classList.toggle("active");
       }
-      
-      // Close menu when clicking outside
+
       document.addEventListener("click", function(event) {
         const nav = document.querySelector(".site-nav");
         const menuIcon = document.querySelector(".menu-icon");
