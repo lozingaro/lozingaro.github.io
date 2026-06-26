@@ -159,28 +159,12 @@ main { flex: 1; }
   gap: .9rem;
   margin: 2rem 0;
 }
-.nav-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid #111;
-  padding: 1.6rem .75rem 1.3rem;
-  text-align: center;
+.nav-panel-link {
+  display: block;
   text-decoration: none;
-  color: #111;
-  background: #fff;
-  gap: .7rem;
-  min-height: 130px;
 }
-.nav-panel:visited { color: #111; }
-.nav-panel:hover   { background: #f5e614; color: #111; text-decoration: none; }
-.nav-panel-label {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: .85rem;
-}
+.nav-panel-link:hover .panel-fill { fill: #f5e614; }
+.nav-panel-svg { width: 100%; height: auto; display: block; }
 @media (max-width: 480px) {
   .nav-panels { grid-template-columns: 1fr; }
 }
