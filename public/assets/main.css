@@ -1,5 +1,31 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* ── Palette mensile (impostata via data-month da JS) ── */
+/* gen: Dark Soft Violet + Aconite Violet + Grayish Lavender */
+:root, :root[data-month="0"]  { --primary:#4B3480; --secondary:#9B5070; --accent:#C0B0CC; }
+/* feb: Helvetia Blue + Dark Soft Violet + Salvia Blue */
+:root[data-month="1"]  { --primary:#2D4A8C; --secondary:#4B3480; --accent:#8B9BC8; }
+/* mar: Rainette Green + Cobalt Green + Light Green Yellow */
+:root[data-month="2"]  { --primary:#607030; --secondary:#6EA472; --accent:#A8A830; }
+/* apr: Aconite Violet + Cerulean Blue + Yellow */
+:root[data-month="3"]  { --primary:#9B5070; --secondary:#4E8FA8; --accent:#D4B820; }
+/* mag: Rainette Green + Antwerp Blue + Yellow */
+:root[data-month="4"]  { --primary:#607030; --secondary:#3D6080; --accent:#D4B820; }
+/* giu: Cerulean Blue + Helvetia Blue + Grayish Lavender */
+:root[data-month="5"]  { --primary:#4E8FA8; --secondary:#2D4A8C; --accent:#C0B0CC; }
+/* lug: Antwerp Blue + Vistoris Lake + Orange Yellow */
+:root[data-month="6"]  { --primary:#3D6080; --secondary:#7A3820; --accent:#D49820; }
+/* ago: Spectrum Red + Blue + Orange Yellow */
+:root[data-month="7"]  { --primary:#B82828; --secondary:#4A5E90; --accent:#D49820; }
+/* set: Pale Burnt Lake + Olive + Orange Yellow */
+:root[data-month="8"]  { --primary:#8B2840; --secondary:#6B7340; --accent:#D49820; }
+/* ott: Vistoris Lake + Pale Burnt Lake + Orange Yellow */
+:root[data-month="9"]  { --primary:#7A3820; --secondary:#8B2840; --accent:#D49820; }
+/* nov: Antwerp Blue + Vistoris Lake + Light Green Yellow */
+:root[data-month="10"] { --primary:#3D6080; --secondary:#7A3820; --accent:#A8A830; }
+/* dic: Dark Soft Violet + Helvetia Blue + Grayish Lavender */
+:root[data-month="11"] { --primary:#4B3480; --secondary:#2D4A8C; --accent:#C0B0CC; }
+
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
@@ -11,9 +37,9 @@ body {
   min-height: 100vh;
 }
 
-a         { color: #2a8c14; text-decoration: underline; }
-a:visited { color: #1a6a0a; }
-a:hover   { background: #f5e614; color: #111; text-decoration: none; }
+a         { color: var(--primary); text-decoration: underline; }
+a:visited { color: var(--secondary); }
+a:hover   { background: var(--accent); color: #111; text-decoration: none; }
 
 /* ── Layout ── */
 .wrapper {
@@ -27,13 +53,14 @@ main { flex: 1; }
 
 /* ── Footer ── */
 .site-footer {
-  border-top: 2px solid #111;
+  border-top: 2px solid var(--primary);
   padding: .9rem 0;
   font-size: .85rem;
   color: #444;
   text-align: center;
 }
-.site-footer a { color: #111; }
+.site-footer a { color: #444; }
+.site-footer a:hover { background: var(--accent); color: #111; }
 
 /* ── Projects list ── */
 ul.projects {
@@ -54,7 +81,7 @@ figure.poem {
   margin: 2.5rem 0;
 }
 figure.poem + figure.poem {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #eee;
   padding-top: 2.5rem;
 }
 figure.poem blockquote {
