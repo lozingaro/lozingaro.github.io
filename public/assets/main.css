@@ -13,8 +13,8 @@
 :root[data-month="4"]  { --primary:#607030; --secondary:#3D6080; --accent:#D4B820; }
 /* giu: Cerulean Blue + Helvetia Blue + Grayish Lavender */
 :root[data-month="5"]  { --primary:#4E8FA8; --secondary:#2D4A8C; --accent:#C0B0CC; }
-/* lug: Antwerp Blue + Vistoris Lake + Orange Yellow */
-:root[data-month="6"]  { --primary:#3D6080; --secondary:#7A3820; --accent:#D49820; }
+/* lug: Violet Blue + Blue Violet + Orange Rufous (7月の配色, p.039) */
+:root[data-month="6"]  { --primary:#3C3880; --secondary:#5B3A9A; --accent:#C85A30; }
 /* ago: Spectrum Red + Blue + Orange Yellow */
 :root[data-month="7"]  { --primary:#B82828; --secondary:#4A5E90; --accent:#D49820; }
 /* set: Pale Burnt Lake + Olive + Orange Yellow */
