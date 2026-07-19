@@ -33,7 +33,7 @@ body::after {
 
 /* ── Link ────────────────────────────────────────────── */
 a         { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
-a:visited { color: var(--secondary); }
+a:visited { color: color-mix(in srgb, var(--secondary) 55%, #ddd4c4); }
 a:hover   { background: transparent; color: var(--primary); border-bottom-color: var(--primary); text-decoration: none; }
 
 /* ── Footer ──────────────────────────────────────────── */
