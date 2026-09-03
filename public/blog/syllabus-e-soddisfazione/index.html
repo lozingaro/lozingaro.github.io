@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Syllabus e soddisfazione — lozingaro</title>
+    <meta name="description" content="un caso di studio: correlazione tra caratteristiche del syllabus e customer satisfaction">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <script>document.documentElement.dataset.month=new Date().getMonth();</script>
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper prose">
+
+<h1>Syllabus e soddisfazione</h1>
+<p class="archive-badge">Documento d'archivio, 2025–2026 — caso anonimizzato</p>
+
+<p>Un caso di studio con un partner accademico: capire se esiste una relazione significativa tra le caratteristiche di un syllabus e la customer satisfaction del corso a cui appartiene.</p>
+
+<h2>Obiettivo</h2>
+
+<p>Fare feature engineering sui syllabi (dati testuali, non tabulari) per estrarre caratteristiche confrontabili con i dati tabulari di customer satisfaction, e testare se esiste significatività statistica tra le due cose.</p>
+
+<h2>Metodologia</h2>
+
+<p>Estrazione di feature dal syllabus — a partire, ad esempio, dalla semplice presenza o assenza di determinati punti attesi in un buon syllabus — e successiva analisi di correlazione tra queste feature e i punteggi di soddisfazione. Ipotesi di lavoro: la metodologia didattica che emerge da un syllabus può non essere affatto correlata alla soddisfazione dichiarata — sono due segnali che raccontano cose diverse, e vanno tenuti separati prima di essere messi in relazione.</p>
+
+<p>Una seconda variabile considerata è la metodologia didattica dichiarata, e il disallineamento tra le aspettative poste nel syllabus e quanto poi riportato nei report a consuntivo.</p>
+
+<p>Per la parte qualitativa, si è affiancata un'analisi quantitativa dei feedback testuali (sentiment analysis, conteggio parole su temi ricorrenti) per far emergere segnali come "mancano casi studio" — punti di forza e di debolezza che una tabella di soli numeri non cattura.</p>
+
+<h2>Limiti</h2>
+
+<p>L'analisi lavora su una finestra temporale e un profilo di corso specifici: va letta come punto di partenza, non come risultato generalizzabile. Va inoltre verificato quanto le feature estratte dal syllabus siano davvero indipendenti dalla metodologia didattica dichiarata, per evitare di misurare due volte la stessa cosa.</p>
+
+<h2>Prossimi passi</h2>
+
+<p>Estendere l'analisi a una serie temporale — come è evoluto un corso nel tempo, non solo una fotografia isolata — con un profilo di classe (class profile) e correlazioni orientate all'outcome finale, non solo alla soddisfazione dichiarata a caldo.</p>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </div>
+    </footer>
+  </body>
+</html>

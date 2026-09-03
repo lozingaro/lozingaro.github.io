@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DAG causali e priori aggiornabili — lozingaro</title>
+    <meta name="description" content="nota di implementazione: perché i pesi di un DAG causale non sono verità, ma credenze iniziali">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <script>document.documentElement.dataset.month=new Date().getMonth();</script>
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper prose">
+
+<h1>DAG causali e priori aggiornabili</h1>
+<p class="archive-badge">Documento d'archivio, 2025–2026 — dati anonimizzati</p>
+
+<p>Un DAG per intervento è una buona astrazione di partenza, ma il file di import non deve codificare i "pesi di impatto" come verità causale. Deve codificare struttura causale, semantica, tempistica e priori — con i pesi trattati come credenze iniziali, aggiornabili a partire dai dati.</p>
+
+<p>Nei report di soddisfazione attuali esistono già suggerimenti di intervento a catalogo, con scope sull'insegnamento: sono suggerimenti messi in relazione con la soddisfazione, non con la performance o la motivazione. È un limite: il motore di Didaflow deve invece mettere in relazione l'eterogeneità dei dati disponibili con le domande che interessano davvero — usare le motivazioni, usare le soddisfazioni, non fermarsi alla prima variabile disponibile.</p>
+
+<p>Da dati aggregati di un corso pilota, ad esempio, è possibile quantificare gli elementi di motivazione di un corso (ansia, autoefficacia, e altri costrutti simili). Da lì, si può prendere dalla letteratura la relazione intervento → impatto su un mediatore motivazionale, e correlarla con l'outcome finale. Sul fronte performance, i dati di base ci sono già: pass rate, medie voto, e simili.</p>
+
+<p>Il punto centrale resta lo stesso della logica DAG: un peso stimato oggi da letteratura o da un singolo corso pilota è un punto di partenza, non un dato acquisito. Il sistema deve poterlo aggiornare man mano che arrivano più dati reali, e deve poter dire chiaramente quando un peso è ancora una stima debole.</p>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </div>
+    </footer>
+  </body>
+</html>

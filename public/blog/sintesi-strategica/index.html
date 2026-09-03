@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sintesi strategica — lozingaro</title>
+    <meta name="description" content="un sistema AI per il monitoraggio e l'ottimizzazione della regolarità didattica">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <script>document.documentElement.dataset.month=new Date().getMonth();</script>
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper prose">
+
+<h1>Sintesi strategica</h1>
+<p class="archive-badge">Documento d'archivio, 2025–2026 — esempio illustrativo, dati anonimizzati</p>
+
+<p><strong>Sistema AI per il monitoraggio e l'ottimizzazione della regolarità didattica</strong></p>
+
+<h2>1. Contesto &amp; problema</h2>
+
+<p>Le istituzioni universitarie affrontano tre sfide interconnesse.</p>
+
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│ SFIDA 1: Pressione ministeriale (ANVUR)                      │
+├─────────────────────────────────────────────────────────────┤
+│ • Riesame Annuale obbligatorio (SMA)                         │
+│ • 30+ indicatori da monitorare (iC01-iC28)                   │
+│ • Confronto con benchmark (Area/Italia/Ateneo)               │
+│ • Impatto su FFO (Fondo Finanziamento Ordinario)             │
+│                                                               │
+│ Problema: processo manuale, time-consuming, reattivo         │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ SFIDA 2: Calo iscrizioni &amp; dispersione                       │
+├─────────────────────────────────────────────────────────────┤
+│ • Trend nazionale: -15% immatricolazioni 2019-2024           │
+│ • Dropout I→II anno: 30% media nazionale                     │
+│ • Laureati fuori corso: 55% (vs 45% target ministeriale)     │
+│                                                               │
+│ Problema: mancano strumenti predittivi evidence-based        │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ SFIDA 3: Decision-making intuitivo                           │
+├─────────────────────────────────────────────────────────────┤
+│ • Interventi basati su "percezione" non su dati              │
+│ • Nessuna simulazione impatto "what-if"                      │
+│ • Difficoltà a identificare cause reali vs correlazioni      │
+│                                                               │
+│ Problema: sprechi di risorse su azioni inefficaci             │
+└─────────────────────────────────────────────────────────────┘
+</pre>
+
+<p><strong>Insight chiave</strong>: gli atenei hanno dati (ANVUR, ANS, AlmaLaurea) ma non intelligence predittiva.</p>
+
+<h2>2. La soluzione Didaflow</h2>
+
+<p><em>"Da reporting descrittivo a decision support predittivo"</em></p>
+
+<p>Didaflow trasforma gli atenei da chi si chiede "cosa è successo?" (dashboard storiche) a chi si chiede "cosa succederà se...?" (simulazione causale + AI).</p>
+
+<h3>Architettura in 3 layer</h3>
+
+<pre>
+┌──────────────────────────────────────────────────────────────┐
+│ LAYER 1: DATA INTEGRATION                                     │
+│ ────────────────────────────────────────────────────────────  │
+│ Input sources:                                                │
+│ • Indicatori ANVUR (30+ metriche regolarità)                  │
+│ • Anagrafe Studenti (performance, motivazioni, dropout)       │
+│ • OPIS (opinione studenti su insegnamenti)                    │
+│ • AlmaLaurea (occupazione post-laurea)                        │
+│ • Customer satisfaction (survey CdS)                          │
+│                                                                │
+│ Output: Unified Knowledge Graph                               │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ LAYER 2: AI ANALYTICS ENGINE                                  │
+│ ────────────────────────────────────────────────────────────  │
+│ 1. Causal Model (grafo di regolarità)                         │
+│    • Nodi: insegnamenti, caratteristiche studente, outcomes   │
+│    • Archi: relazioni causali mediate (non solo correlazioni) │
+│    • Esempio: Matematica I → [Self-efficacy] → Algoritmi II   │
+│                                                                │
+│ 2. AI Simulation (what-if scenarios)                          │
+│    • "Se anticipo appello Programmazione da feb→gen,          │
+│      iC16 passa da 48%→56% (±4pp, CI 95%)"                    │
+│    • Basato su evidence da corsi con interventi simili        │
+│                                                                │
+│ 3. Alert System (anomaly detection)                           │
+│    • Trigger: iC24_CdS > iC24_Area (dispersione anomala)      │
+│    • Diagnosi: "Abbandoni concentrati su studenti >150 CFU"   │
+│    • Root cause: "Tirocinio tardivo + sovrapposizioni tesi"   │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ LAYER 3: DECISION SUPPORT INTERFACE                           │
+│ ────────────────────────────────────────────────────────────  │
+│ A. Dashboard interattiva                                      │
+│    • Grafo regolarità (nodi colorati: verde/giallo/rosso)     │
+│    • Drill-down su singolo insegnamento/coorte                │
+│    • Confronti real-time con benchmark ANVUR                  │
+│                                                                │
+│ B. Catalogo interventi evidence-based                         │
+│    • 20+ azioni documentate (costo, tempo, impatto previsto)  │
+│    • Filtri: scope (CdS/insegnamento), costo, urgenza         │
+│    • Casi studio: "atenei con tutorato → +8-14% iC15"         │
+│                                                                │
+│ C. SMA auto-generato                                          │
+│    • Documento PDF secondo template ANVUR                     │
+│    • Sezioni narrative AI-assisted (con placeholder docente)  │
+│    • Export per Consiglio CdS / upload piattaforma MUR        │
+└──────────────────────────────────────────────────────────────┘
+</pre>
+
+<h2>3. Innovation core: il grafo di regolarità</h2>
+
+<p><strong>Dashboard classiche</strong> (Tableau, PowerBI): mostrano correlazioni ("iC16 è 48%, Italia è 32%"), ma non spiegano perché né cosa fare.</p>
+
+<p><strong>Il knowledge graph di Didaflow</strong>: modella relazioni causali mediate, identifica colli di bottiglia (insegnamenti/mediatori critici), simula impatti di interventi.</p>
+
+<h3>Esempio illustrativo</h3>
+
+<p>Uno scenario composito, costruito su pattern osservati in più corsi di studio, per mostrare come funziona il ragionamento della piattaforma — non i dati di un ateneo reale.</p>
+
+<pre>
+SITUAZIONE (da un Riesame Annuale tipo):
+• iC16 (% con ≥40 CFU I anno): 48.3% (da 22.8% tre anni prima)
+• Trend: +25.5pp in 3 anni ↑
+
+INTERVENTI APPLICATI (evidence-based):
+1. Anticipo appello di un insegnamento (feb→gen)
+   → Impatto osservato: +8pp su iC16
+
+2. Altro insegnamento: da progetto finale a laboratorio semestrale
+   → Impatto osservato: +6pp su iC13 (CFU conseguiti I anno)
+
+3. Tutorato +10h/sett su materie quantitative
+   → Impatto osservato: +12pp su iC15 (≥20 CFU)
+
+MODELLO CAUSALE DIDAFLOW (ricostruito):
+┌─────────────────────────────────────────────────────────────┐
+│ Insegnamento A     Insegnamento B      Insegnamento C        │
+│    (I sem)            (II sem)            (I sem)            │
+│       │                  │                   │               │
+│       └────────┬─────────┴───────────────────┘               │
+│                ▼                                             │
+│         [Performance_CFU]  ←──── [Tutorato]                  │
+│                │                     (+)                     │
+│                ▼                                             │
+│         [Self-efficacy]                                      │
+│                │                                              │
+│                ▼                                              │
+│          Success_II_anno                                     │
+│           (iC16 ↑)                                           │
+└─────────────────────────────────────────────────────────────┘
+
+SIMULAZIONE Didaflow (what-if):
+"Se un CdS con iC16=30% applica i 3 interventi:
+ → iC16 previsto: 45-52% (intervallo confidenza 95%)
+ → Costo: ~€10k (tutorato) + ~€2k (riprogettazione) + 0€ (anticipo)
+ → ROI: ogni punto iC16 = meno abbandoni = risparmio stimato"
+</pre>
+
+<p><strong>Insight</strong>: il sistema non solo descrive il miglioramento, ma lo predice e lo prescrive per altri corsi di studio.</p>
+
+<h2>4. Integrazione ANVUR: da compliance a vantaggio</h2>
+
+<table>
+<thead>
+<tr><th>Categoria ANVUR</th><th>Indicatori chiave</th><th>Nodo/arco grafo</th></tr>
+</thead>
+<tbody>
+<tr><td>Attrattività</td><td>iC00a/b (avvii, immatricolati)</td><td>Attributo globale CdS</td></tr>
+<tr><td></td><td>iC03 (% extra-regionali)</td><td>"Attrattività_nazionale"</td></tr>
+<tr><td>Regolarità I→II anno</td><td>iC14 (% prosecuzione)</td><td>Arco "Persistence_I→II"</td></tr>
+<tr><td></td><td>iC16 (% con ≥40 CFU) ★</td><td>"Performance_CFU_I_anno"</td></tr>
+<tr><td></td><td>iC01 (% regolari ≥40 CFU/as)</td><td>Aggregato annuale su iC16</td></tr>
+<tr><td>Completamento</td><td>iC02 (% laureati regolari) ★</td><td>Nodo finale "Laurea_in_corso"</td></tr>
+<tr><td></td><td>iC17 (% laureati entro N+1)</td><td>"Completion_rate"</td></tr>
+<tr><td>Dispersione</td><td>iC24 (% abbandoni post-N+1)</td><td>Arco "→ Dropout" (peso)</td></tr>
+<tr><td></td><td>iC21 (% prosegue in sistema)</td><td>Differenza iC21-iC14 = switch CdS</td></tr>
+<tr><td>Internazionalizzazione</td><td>iC10 (% CFU estero)</td><td>Nodo "Mobilità_internazionale"</td></tr>
+<tr><td>Occupabilità</td><td>iC06 (% occupati 1y)</td><td>Outcome post-laurea</td></tr>
+</tbody>
+</table>
+
+<p>★ = indicatori critici per FFO e valutazione AVA3</p>
+
+<h3>Funzionalità automatiche</h3>
+
+<ol>
+<li><strong>Import ANVUR</strong> (annual refresh) — scraping Cruscotto ANVUR pubblico, parsing file Excel ministeriali, validazione coerenza dati.</li>
+<li><strong>Alert automatici</strong> (soglie ministeriali) — es. "iC16_CdS &lt; iC16_Italia" genera un alert "Regolarità sotto media nazionale" con suggerimenti (tutorato, anticipo scadenze, ...); un trend negativo di iC02 per due anni genera una diagnosi (analisi tirocinio, calendario esami, ...).</li>
+<li><strong>SMA Generator</strong> (Scheda Monitoraggio Annuale) — template conforme ANVUR, sezioni auto-compilate (attrattività, regolarità, conclusione) con narrative AI e azioni proposte dal catalogo, export PDF per il Consiglio CdS.</li>
+</ol>
+
+<p><strong>Valore</strong>: da compliance reattiva (riesame a posteriori) a gestione proattiva (interventi preventivi).</p>
+
+<h2>5. Differenziatori competitivi</h2>
+
+<h3>vs Business Intelligence tradizionale</h3>
+
+<table>
+<thead>
+<tr><th>Dimensione</th><th>Tableau/PowerBI</th><th>Didaflow</th></tr>
+</thead>
+<tbody>
+<tr><td>Analytics</td><td>Descrittiva (cosa è successo)</td><td>Predittiva (cosa succederà)</td></tr>
+<tr><td>Causalità</td><td>Correlazioni</td><td>Modello causale con mediatori</td></tr>
+<tr><td>Azioni</td><td>Nessuna</td><td>Catalogo interventi evidence-based</td></tr>
+<tr><td>Simulazione</td><td>No</td><td>What-if con intervalli di confidenza</td></tr>
+<tr><td>Dominio</td><td>Generico</td><td>Verticale education (ANVUR-native)</td></tr>
+<tr><td>Compliance</td><td>Custom reporting</td><td>SMA auto-generato</td></tr>
+</tbody>
+</table>
+
+<h3>vs concorrenti education-tech</h3>
+
+<table>
+<thead>
+<tr><th>Player</th><th>Focus</th><th>Gap vs Didaflow</th></tr>
+</thead>
+<tbody>
+<tr><td>U-Multirank</td><td>Ranking atenei</td><td>Nessuna analytics predittiva interna</td></tr>
+<tr><td>AlmaLaurea</td><td>Occupazione post-laurea</td><td>Zero supporto decision-making</td></tr>
+<tr><td>Schede SUA-CdS</td><td>Raccolta dati manuale</td><td>Nessuna intelligence, solo storage</td></tr>
+<tr><td>Cruscotto ANVUR</td><td>Dashboard descrittiva</td><td>Zero what-if, zero azioni proposte</td></tr>
+</tbody>
+</table>
+
+<p><strong>Il punto di Didaflow</strong>: è l'unico sistema che chiude il ciclo dato → diagnosi → simulazione → azione → monitoraggio.</p>
+
+<h2>Appendice: glossario ANVUR</h2>
+
+<table>
+<thead>
+<tr><th>Termine</th><th>Significato</th></tr>
+</thead>
+<tbody>
+<tr><td>SMA</td><td>Scheda Monitoraggio Annuale — documento obbligatorio di riesame CdS</td></tr>
+<tr><td>iCXX</td><td>Indicatori ANVUR numerati (es. iC16 = % con ≥40 CFU I anno)</td></tr>
+<tr><td>CdS</td><td>Corso di Studi (L=triennale, LM=magistrale, LMCU=magistrale ciclo unico)</td></tr>
+<tr><td>FFO</td><td>Fondo Finanziamento Ordinario — budget ministeriale agli atenei</td></tr>
+<tr><td>AVA3</td><td>Sistema Accreditamento e Valutazione ANVUR (ultima versione)</td></tr>
+<tr><td>ANS</td><td>Anagrafe Nazionale Studenti — database ministeriale iscritti/carriere</td></tr>
+<tr><td>Area</td><td>Raggruppamento atenei per disciplina (es. "Area Scienze" = tutti CdS STEM)</td></tr>
+<tr><td>N+1</td><td>Durata normale corso +1 anno (es. laurea triennale = 4 anni invece di 3)</td></tr>
+</tbody>
+</table>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </div>
+    </footer>
+  </body>
+</html>

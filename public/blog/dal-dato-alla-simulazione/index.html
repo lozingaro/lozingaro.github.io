@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dal dato alla simulazione — lozingaro</title>
+    <meta name="description" content="Didaflow: dal dato grezzo alla simulazione, un approccio programma-centrico">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <script>document.documentElement.dataset.month=new Date().getMonth();</script>
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper prose">
+
+<h1>Dal dato alla simulazione</h1>
+<p class="archive-badge">Documento d'archivio, 2025–2026</p>
+
+<p>Didaflow è una piattaforma per trasformare dati educativi grezzi in conoscenza operativa sui corsi di studio (programmi), con un approccio "programma-centrico": spostiamo il focus dall'individuo (lo studente) al contesto (il programma). Invece di chiedere "perché lo studente abbandona?", chiediamo "quali caratteristiche del programma favoriscono o ostacolano regolarità, qualità e continuità?".</p>
+
+<h2>1. Input: dati grezzi (multi-sorgente)</h2>
+
+<p>Didaflow importa e integra dati che le istituzioni devono monitorare (anche per direttive ESG) e dati aggiuntivi utili per ricerca e governance.</p>
+
+<ul>
+<li>Risultati e carriera: esiti esami, progressione CFU, tentativi, tempi, status (attivo, abbandono, laurea).</li>
+<li>Opinioni sugli insegnamenti (OPIS / satisfaction): qualità percepita, carico, organizzazione, ecc.</li>
+<li>Questionari motivazionali (quando disponibili): autoefficacia, motivazione, ansia, gestione del tempo, ecc.</li>
+<li>Interventi e cambiamenti: azioni su insegnamenti e programmi (materiali, metodi, tutorato, cambi regolamento/ordinamento, ecc.).</li>
+</ul>
+
+<h2>2. Layer di Facts: archivio per anno accademico</h2>
+
+<p>I dati grezzi vengono normalizzati e sintetizzati in "facts" (fotografie aggregate per anno accademico) a diversi livelli:</p>
+
+<ul>
+<li>Student-level facts (aggregati/derivati): indicatori di carriera e profili (non per "valutare lo studente", ma per descrivere la popolazione del programma).</li>
+<li>Teaching-year facts: metriche per insegnamento (performance, satisfaction, tentativi, segnali di criticità) e storia di interventi sul teaching.</li>
+<li>Program-year facts: metriche e segnali a livello di programma (es. questionari motivazionali aggregati, cambi ordinamento/regole, interventi strutturali).</li>
+</ul>
+
+<h2>3. KPI: indicatori di qualità e mediatori</h2>
+
+<p>Dai facts si calcolano KPI:</p>
+
+<ul>
+<li>KPI "compliance" (es. ANVUR / nazionali / europei) quando i dati minimi sono disponibili.</li>
+<li>KPI interni e "mediatori" che spiegano/meccanizzano l'impatto: performance, soddisfazione, motivazione, ecc.</li>
+</ul>
+
+<p>Non tutti i mediatori sono sempre misurabili: se manca una sorgente (es. motivazionale), quel mediatore non è calcolabile e la piattaforma deve esplicitare la mancanza.</p>
+
+<h2>4. Flow e Views: prima–durante–dopo il programma</h2>
+
+<p>Didaflow rappresenta il "flow" del programma come sistema logico per anno accademico:</p>
+
+<ul>
+<li>Attrattività (prima): funnel pre-enrollment (candidati → ammessi → pre-iscritti → immatricolati).</li>
+<li>Regolarità (durante): teaching flow e progressione (colli di bottiglia, tempi, tentativi, soddisfazione).</li>
+<li>Occupabilità (dopo): outcome post-graduation (occupati 6/12 mesi, ulteriore formazione, altri esiti).</li>
+</ul>
+
+<p>Le views sono diverse "letture" dello stesso sistema, non prodotti separati.</p>
+
+<h2>5. Simulazione interventi: evidence-based, mediator-driven</h2>
+
+<p>La simulazione applica interventi (su insegnamento o programma) come variazioni sui mediatori misurabili (es. pass_rate, satisfaction, motivazione) e produce uno scenario che modifica i KPI e la lettura del flow (attrattività/regolarità/occupabilità).</p>
+
+<ul>
+<li>Se un mediatore non è misurabile, l'impatto su quel canale non può essere stimato: la piattaforma deve segnalarlo chiaramente (warnings / confidence).</li>
+<li>Obiettivo: supportare decisioni sicure e "evidence-based" (interventi sperimentati altrove e adattati al contesto), senza spostare l'attenzione sul singolo individuo.</li>
+</ul>
+
+<h2>Output finale: una "lente" sul programma</h2>
+
+<p>Didaflow produce: (a) facts aggregati per anno, (b) KPI e mediatori con tracciabilità della sorgente, (c) flow multi-view, (d) simulazioni di interventi con trasparenza su cosa è stimabile e cosa no.</p>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+        <div class="wrapper">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+        </div>
+    </footer>
+  </body>
+</html>

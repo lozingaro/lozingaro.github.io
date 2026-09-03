@@ -161,3 +161,4 @@ figure.poem figcaption {
 .prose table { width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: .85rem; }
 .prose th, .prose td { text-align: left; vertical-align: top; padding: .4rem .5rem .4rem 0; border-bottom: 1px solid #2a2418; }
 .prose th { border-bottom: 1px solid var(--primary); color: var(--accent); }
+.archive-badge { font-size: .78em; color: #665a4a; font-style: italic; margin: -0.6rem 0 1.6rem; }
